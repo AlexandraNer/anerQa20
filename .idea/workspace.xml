@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="96508e5c-a7f4-4904-aa3f-7b33777dbe56" name="Default Changelist" comment="" />
+    <list default="true" id="96508e5c-a7f4-4904-aa3f-7b33777dbe56" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Selenium-tsts/src/test/java/SearchWikiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Selenium-tsts/src/test/java/SearchWikiTest.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/Selenium-tsts/.gradle/" />
     <ignored path="$PROJECT_DIR$/Selenium-tsts/build/" />
@@ -44,20 +46,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Selenium-tsts/src/test/java/SearchWikiTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="29" column="38" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
+            <state relative-caret-position="139">
+              <caret line="21" column="72" selection-start-line="21" selection-start-column="72" selection-end-line="21" selection-end-column="72" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web-tests/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="289">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
@@ -65,13 +67,14 @@
     </leaf>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Selenium-tsts/build.gradle" />
         <option value="$PROJECT_DIR$/web-tests/build.gradle" />
+        <option value="$PROJECT_DIR$/Selenium-tsts/src/test/java/SearchWikiTest.java" />
       </list>
     </option>
   </component>
@@ -89,28 +92,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Selenium-tsts" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web-tests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Selenium-tsts" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web-tests" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Selenium-tsts" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web-tests" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -140,12 +122,24 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.SearchWikiTest.wikiWebTest">
+  <component name="RunManager" selected="TestNG.SearchWikiTest.wikiWebTest2">
     <configuration name="SearchWikiTest.wikiWebTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Selenium-tsts_test" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="SearchWikiTest" />
       <option name="METHOD_NAME" value="wikiWebTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchWikiTest.wikiWebTest1 (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Selenium-tsts_test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SearchWikiTest" />
+      <option name="METHOD_NAME" value="wikiWebTest1" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -165,8 +159,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SearchWikiTest.wikiWebTest2" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Selenium-tsts_test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SearchWikiTest" />
+      <option name="METHOD_NAME" value="wikiWebTest2" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.SearchWikiTest.wikiWebTest2" />
+        <item itemvalue="TestNG.SearchWikiTest.wikiWebTest1 (1)" />
         <item itemvalue="TestNG.SearchWikiTest.wikiWebTest" />
         <item itemvalue="TestNG.SearchWikiTest.wikiWebTest1" />
       </list>
@@ -186,15 +194,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SearchWikiTest_wikiWebTest - 2019.06.28 at 12h 13m 11s.xml">
+    <history-entry file="SearchWikiTest_wikiWebTest - 2019.06.28 at 17h 22m 13s.xml">
       <configuration name="SearchWikiTest.wikiWebTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SearchWikiTest_wikiWebTest - 2019.06.28 at 17h 25m 02s.xml">
+      <configuration name="SearchWikiTest.wikiWebTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SearchWikiTest_wikiWebTest - 2019.06.28 at 17h 28m 14s.xml">
+      <configuration name="SearchWikiTest.wikiWebTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SearchWikiTest_wikiWebTest - 2019.06.28 at 17h 28m 40s.xml">
+      <configuration name="SearchWikiTest.wikiWebTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SearchWikiTest_wikiWebTest1_(1) - 2019.06.28 at 17h 30m 05s.xml">
+      <configuration name="SearchWikiTest.wikiWebTest1 (1)" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SearchWikiTest_wikiWebTest1_(1) - 2019.06.28 at 17h 30m 58s.xml">
+      <configuration name="SearchWikiTest.wikiWebTest1 (1)" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SearchWikiTest_wikiWebTest1_(1) - 2019.06.28 at 17h 32m 19s.xml">
+      <configuration name="SearchWikiTest.wikiWebTest1 (1)" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SearchWikiTest_wikiWebTest2 - 2019.06.28 at 17h 33m 27s.xml">
+      <configuration name="SearchWikiTest.wikiWebTest2" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SearchWikiTest_wikiWebTest2 - 2019.06.28 at 17h 44m 45s.xml">
+      <configuration name="SearchWikiTest.wikiWebTest2" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SearchWikiTest_wikiWebTest2 - 2019.06.28 at 17h 52m 41s.xml">
+      <configuration name="SearchWikiTest.wikiWebTest2" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-3" y="0" width="1400" height="784" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28208956" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28208956" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -203,8 +238,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.35771066" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.35771066" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3990461" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -230,10 +265,10 @@
     </ignored-roots>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Selenium-tsts/src/test/java/SearchWikiTest.java">
+    <entry file="file://$PROJECT_DIR$/web-tests/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="29" column="38" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
+        <state relative-caret-position="289">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
@@ -244,10 +279,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web-tests/build.gradle">
+    <entry file="file://$PROJECT_DIR$/Selenium-tsts/src/test/java/SearchWikiTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="139">
+          <caret line="21" column="72" selection-start-line="21" selection-start-column="72" selection-end-line="21" selection-end-column="72" />
         </state>
       </provider>
     </entry>

@@ -18,24 +18,22 @@ public class SearchWikiTest {
     }
     @Test
     public void wikiWebTest(){
-        driver.navigate().to("https://www.google.com/");
-      // driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-       //  driver.findElement(By.id("q")).sendKeys("wikipedia");
-       // driver.findElement(By.cssSelector(".sprite.svg-search-icon")).click();
+        driver.navigate().to("https://www.wikipedia.com/");
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
     }
 
     @Test
-    public void wikiWebTest1(){
-        driver.navigate().to("https://www.wikipedia.org/");
-        driver.findElement(By.name("btnK")).click();
+     public void wikiWebTest1(){
+        driver.navigate().to("https://www.wikipedia.com/");
+        driver.findElement(By.id("searchInput")).sendKeys("wikipedia");
 
-    }
-   /* @Test
-    public void wikiWebTest2(){
-        driver.navigate().to("https://www.wikipedia.org/");
-        driver.findElement(By.id("searchInput")).sendKeys("Tel Aviv");
-        driver.findElement(By.cssSelector(".sprite.svg-search-icon")).click();
-    }*/
+     }
+     @Test
+     public void wikiWebTest2(){
+         driver.navigate().to("https://www.wikipedia.org/");
+         driver.findElement(By.id("searchInput")).sendKeys("wikipedia");
+         driver.findElement(By.xpath("//i[@class='sprite svg-search-icon']")).click();
+     }
     @AfterMethod
     public void tearDown(){
         driver.quit();
