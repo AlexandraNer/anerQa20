@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96508e5c-a7f4-4904-aa3f-7b33777dbe56" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Selenium-tsts/src/test/java/SearchWikiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Selenium-tsts/src/test/java/SearchWikiTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/Selenium-tsts/.gradle/" />
@@ -11,6 +12,9 @@
     <ignored path="$PROJECT_DIR$/web-tests/.gradle/" />
     <ignored path="$PROJECT_DIR$/web-tests/build/" />
     <ignored path="$PROJECT_DIR$/web-tests/out/" />
+    <ignored path="$PROJECT_DIR$/trello-test/.gradle/" />
+    <ignored path="$PROJECT_DIR$/trello-test/build/" />
+    <ignored path="$PROJECT_DIR$/trello-test/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +26,9 @@
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$/Selenium-tsts">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/trello-test">
       <ProjectState />
     </projectState>
     <projectState path="$PROJECT_DIR$/web-tests">
@@ -46,11 +53,34 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Selenium-tsts/src/test/java/SearchWikiTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="139">
+            <state relative-caret-position="238">
               <caret line="21" column="72" selection-start-line="21" selection-start-column="72" selection-end-line="21" selection-end-column="72" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/trello-test/src/test/java/SearchTrelloTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="215">
+              <caret line="34" column="41" selection-start-line="34" selection-start-column="41" selection-end-line="34" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1704#1705#0" expanded="true" />
+                <element signature="e#1733#1734#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/trello-test/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="15" column="45" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -66,6 +96,13 @@
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -75,13 +112,16 @@
         <option value="$PROJECT_DIR$/Selenium-tsts/build.gradle" />
         <option value="$PROJECT_DIR$/web-tests/build.gradle" />
         <option value="$PROJECT_DIR$/Selenium-tsts/src/test/java/SearchWikiTest.java" />
+        <option value="$PROJECT_DIR$/trello-test/build.gradle" />
+        <option value="$PROJECT_DIR$/trello-test/src/test/java/SearchTrelloTest.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-4" />
+    <option name="y" value="2" />
     <option name="width" value="1750" />
-    <option name="height" value="980" />
+    <option name="height" value="978" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -92,7 +132,28 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Selenium-tsts" type="b2602c69:ProjectViewProjectNode" />
+              <item name="trello-test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Selenium-tsts" type="b2602c69:ProjectViewProjectNode" />
+              <item name="trello-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Selenium-tsts" type="b2602c69:ProjectViewProjectNode" />
+              <item name="trello-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope" />
     </panes>
   </component>
@@ -122,7 +183,30 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.SearchWikiTest.wikiWebTest2">
+  <component name="RunManager" selected="TestNG.SearchTrelloTest.createBoardTest">
+    <configuration name="SearchTrelloTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="trello-test_test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SearchTrelloTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchTrelloTest.createBoardTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="trello-test_test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SearchTrelloTest" />
+      <option name="METHOD_NAME" value="createBoardTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SearchWikiTest.wikiWebTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Selenium-tsts_test" />
       <option name="PACKAGE_NAME" value="" />
@@ -147,18 +231,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchWikiTest.wikiWebTest1" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Selenium-tsts.test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SearchWikiTest" />
-      <option name="METHOD_NAME" value="wikiWebTest1" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SearchWikiTest.wikiWebTest2" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Selenium-tsts_test" />
       <option name="PACKAGE_NAME" value="" />
@@ -173,10 +245,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.SearchTrelloTest.createBoardTest" />
+        <item itemvalue="TestNG.SearchTrelloTest" />
         <item itemvalue="TestNG.SearchWikiTest.wikiWebTest2" />
         <item itemvalue="TestNG.SearchWikiTest.wikiWebTest1 (1)" />
         <item itemvalue="TestNG.SearchWikiTest.wikiWebTest" />
-        <item itemvalue="TestNG.SearchWikiTest.wikiWebTest1" />
       </list>
     </recent_temporary>
   </component>
@@ -194,39 +267,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SearchWikiTest_wikiWebTest - 2019.06.28 at 17h 22m 13s.xml">
-      <configuration name="SearchWikiTest.wikiWebTest" configurationId="TestNG" />
+    <history-entry file="SearchTrelloTest - 2019.06.29 at 16h 04m 07s.xml">
+      <configuration name="SearchTrelloTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SearchWikiTest_wikiWebTest - 2019.06.28 at 17h 25m 02s.xml">
-      <configuration name="SearchWikiTest.wikiWebTest" configurationId="TestNG" />
+    <history-entry file="SearchTrelloTest_createBoardTest - 2019.06.29 at 17h 53m 54s.xml">
+      <configuration name="SearchTrelloTest.createBoardTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SearchWikiTest_wikiWebTest - 2019.06.28 at 17h 28m 14s.xml">
-      <configuration name="SearchWikiTest.wikiWebTest" configurationId="TestNG" />
+    <history-entry file="SearchTrelloTest_createBoardTest - 2019.06.29 at 17h 58m 07s.xml">
+      <configuration name="SearchTrelloTest.createBoardTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SearchWikiTest_wikiWebTest - 2019.06.28 at 17h 28m 40s.xml">
-      <configuration name="SearchWikiTest.wikiWebTest" configurationId="TestNG" />
+    <history-entry file="SearchTrelloTest_createBoardTest - 2019.06.29 at 18h 03m 30s.xml">
+      <configuration name="SearchTrelloTest.createBoardTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SearchWikiTest_wikiWebTest1_(1) - 2019.06.28 at 17h 30m 05s.xml">
-      <configuration name="SearchWikiTest.wikiWebTest1 (1)" configurationId="TestNG" />
+    <history-entry file="SearchTrelloTest_createBoardTest - 2019.06.29 at 18h 08m 25s.xml">
+      <configuration name="SearchTrelloTest.createBoardTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SearchWikiTest_wikiWebTest1_(1) - 2019.06.28 at 17h 30m 58s.xml">
-      <configuration name="SearchWikiTest.wikiWebTest1 (1)" configurationId="TestNG" />
+    <history-entry file="SearchTrelloTest_createBoardTest - 2019.06.29 at 18h 10m 00s.xml">
+      <configuration name="SearchTrelloTest.createBoardTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SearchWikiTest_wikiWebTest1_(1) - 2019.06.28 at 17h 32m 19s.xml">
-      <configuration name="SearchWikiTest.wikiWebTest1 (1)" configurationId="TestNG" />
+    <history-entry file="SearchTrelloTest_createBoardTest - 2019.06.29 at 18h 10m 51s.xml">
+      <configuration name="SearchTrelloTest.createBoardTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SearchWikiTest_wikiWebTest2 - 2019.06.28 at 17h 33m 27s.xml">
-      <configuration name="SearchWikiTest.wikiWebTest2" configurationId="TestNG" />
+    <history-entry file="SearchTrelloTest_createBoardTest - 2019.06.29 at 18h 14m 37s.xml">
+      <configuration name="SearchTrelloTest.createBoardTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SearchWikiTest_wikiWebTest2 - 2019.06.28 at 17h 44m 45s.xml">
-      <configuration name="SearchWikiTest.wikiWebTest2" configurationId="TestNG" />
+    <history-entry file="SearchTrelloTest_createBoardTest - 2019.06.29 at 18h 16m 34s.xml">
+      <configuration name="SearchTrelloTest.createBoardTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SearchWikiTest_wikiWebTest2 - 2019.06.28 at 17h 52m 41s.xml">
-      <configuration name="SearchWikiTest.wikiWebTest2" configurationId="TestNG" />
+    <history-entry file="SearchTrelloTest_createBoardTest - 2019.06.29 at 18h 30m 00s.xml">
+      <configuration name="SearchTrelloTest.createBoardTest" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-3" y="0" width="1400" height="784" extended-state="0" />
+    <frame x="-3" y="2" width="1400" height="782" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28208956" />
@@ -238,8 +311,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.35771066" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3990461" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.35885167" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39872408" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -272,6 +345,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/trello-test/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="15" column="45" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Selenium-tsts/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -281,8 +361,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Selenium-tsts/src/test/java/SearchWikiTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
+        <state relative-caret-position="238">
           <caret line="21" column="72" selection-start-line="21" selection-start-column="72" selection-end-line="21" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trello-test/src/test/java/SearchTrelloTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="34" column="41" selection-start-line="34" selection-start-column="41" selection-end-line="34" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1704#1705#0" expanded="true" />
+            <element signature="e#1733#1734#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -337,7 +429,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>web-tests|Selenium-tsts</last-edited>
+          <last-edited>trello-test|Selenium-tsts</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
