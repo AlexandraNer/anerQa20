@@ -32,7 +32,12 @@ public class SearchWikiTest {
      public void wikiWebTest2(){
          driver.navigate().to("https://www.wikipedia.org/");
          driver.findElement(By.id("searchInput")).sendKeys("wikipedia");
+
          driver.findElement(By.xpath("//i[@class='sprite svg-search-icon']")).click();
+         String wiki=driver.findElement(By.xpath("//p[contains(text(),'is a')]")).getText();// cut spesial text
+         System.out.println(wiki);
+        // System.out.println("=================================================================");
+       //  System.out.println("Page title is: " + driver.getTitle());
      }
     @AfterMethod
     public void tearDown(){
