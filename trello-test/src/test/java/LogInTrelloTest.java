@@ -1,10 +1,11 @@
 import org.openqa.selenium.By;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class SearchTrelloTest extends TestBase{
+public class LogInTrelloTest extends TestBase{
 
     @Test
-    public void ligin() throws InterruptedException {
+    public void login() throws InterruptedException {
         //driver.findElement(By.cssSelector("[href='/login']")).click();
         getClick();// login
         fillLoginForm("narishkaalex@gmail.com", "301184Alex");//fill login form
@@ -18,7 +19,12 @@ public class SearchTrelloTest extends TestBase{
         super.type(locator, text);
     }
 
-    protected void cteateBoardFromDropDown() {
+    public void cteateBoardFromDropDown() {
         click(By.cssSelector("[class=_2b-xS2onqCL250]"));
+    }
+
+    @BeforeMethod
+    public void ensurePreconditions() throws InterruptedException {
+        login("narishkaalex@gmail.com", "301184Alex");
     }
 }

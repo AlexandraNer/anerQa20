@@ -23,11 +23,11 @@ public class TestBase {
         }
 
     //-------------------------------------------------------------------------------------------------------------
-    protected void pause(int millis) throws InterruptedException {
+    public void pause(int millis) throws InterruptedException {
             Thread.sleep(millis);
         }
 
-    protected void confirmLogin() {
+    public void confirmLogin() {
             click(By.id("login"));
         }
 
@@ -36,12 +36,12 @@ public class TestBase {
     }
 
     // universary method
-    protected void fillLoginForm(String email, String password) {
+    public void fillLoginForm(String email, String password) {
         type(By.id("user"), email);
         type(By.id("password"), password);
     }
 
-    protected void getClick() {
+    public void getClick() {
         click(By.cssSelector("[class='btn btn-sm btn-link text-white']"));
     }
 
@@ -58,21 +58,42 @@ public class TestBase {
         click(By.cssSelector("[class=\"_1wsVKP33UvhH19 _1bjJJFqVBowSe5 _1LsB1Fm13rEW9M\"]"));
     }
 
-    protected void typeBoardName(String boardName) {
+    public void typeBoardName(String boardName) {
         click(By.cssSelector("[class=\"_2S-286TC5jzXKk\"]"));
         driver.findElement(By.cssSelector("[class=\"_2S-286TC5jzXKk\"]")).clear();
         driver.findElement(By.cssSelector("[class=\"_2S-286TC5jzXKk\"]")).sendKeys(boardName);
     }
 
-    protected void clickOnButtononeHeader() {
+    public void clickOnButtononeHeader() {
         //click on button on the header
-        click(By.name("add"));
+        click(By.xpath("//span[@class='_2O4TvNuF7v0hxu GAI2GE8czAVHCQ _2p2TP4mBgXTJP3 pv4EOUnR9L6jBk']"));
     }
 
     // universary method
-    void type(By locator, String text) {
+    public void type(By locator, String text) {
         click(locator);
         driver.findElement(locator).clear();
         driver.findElement(locator).sendKeys(text);
+    }
+
+    public void pressSubmit() {
+        click(By.xpath("//button[@data-test-id='header-create-team-submit-button']"));
+    }
+
+    /*public void fillGroupCreationForm(String teamName) {
+        click(By.cssSelector("By.cssSelector(\"[class='_1Am_PrV0YBkAmt']\""));
+        driver.findElement(By.cssSelector("[class='_1Am_PrV0YBkAmt']")).clear();
+       driver.findElement(By.cssSelector("[class='_1Am_PrV0YBkAmt']")).sendKeys(teamName);
+    }*/
+
+    public void selectTeamGroup() {
+        click(By.xpath(" //button[@data-test-id='header-create-team-button']"));
+        //button[@data-test-id='header-create-team-button']
+    }
+
+    public void typeTeamName(String teamName) {
+        click(By.cssSelector("[class='_1Am_PrV0YBkAmt']"));
+       driver.findElement(By.cssSelector("[class='_1Am_PrV0YBkAmt']")).clear();
+       driver.findElement(By.cssSelector("[class='_1Am_PrV0YBkAmt']")).sendKeys(teamName);
     }
 }
