@@ -96,4 +96,32 @@ public class TestBase {
        driver.findElement(By.cssSelector("[class='_1Am_PrV0YBkAmt']")).clear();
        driver.findElement(By.cssSelector("[class='_1Am_PrV0YBkAmt']")).sendKeys(teamName);
     }
+
+    public void clickOnSumbitButton() {
+        click(By.xpath("//input[@class='js-confirm full negate']"));
+    }
+
+    public void clickDeleteBoard() {
+        click(By.xpath("//a[@class='quiet js-delete']"));
+    }
+
+    public void closeBoard() {
+        click(By.xpath("//input[@class='js-confirm full negate']"));
+    }
+
+    public void clickOnButtonCloseBoard() {
+        click(By.xpath("//a[@class='board-menu-navigation-item-link js-close-board']"));
+    }
+
+    public void clickOnButtonMore() {
+        click(By.xpath("//span[@class='icon-sm icon-overflow-menu-horizontal board-menu-navigation-item-link-icon']"));
+    }
+
+    public void openMenuOptions() {
+        click(By.xpath("//span[@class='icon-sm icon-overflow-menu-horizontal board-header-btn-icon']"));
+    }
+
+    public void chooseBoardForDelite() {
+        click(By.xpath("//div[@class='board-tile-details is-badged'][1]"));
+    }
 }
