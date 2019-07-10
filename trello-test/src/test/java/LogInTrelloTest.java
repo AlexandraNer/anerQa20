@@ -20,7 +20,7 @@ public class LogInTrelloTest extends TestBase{
     }
 
     public void cteateBoardFromDropDown() {
-        click(By.cssSelector("[class=_2b-xS2onqCL250]"));
+        super.cteateBoardFromDropDown();
     }
 
     @BeforeMethod

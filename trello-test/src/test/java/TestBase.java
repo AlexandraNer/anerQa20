@@ -1,4 +1,5 @@
 import org.openqa.selenium.By;
+import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterMethod;
@@ -14,6 +15,7 @@ public class TestBase {
         driver = new FirefoxDriver();
         driver.get("https://trello.com/");
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        //login("narishkaalex@gmail.com", "301184Alex");
     }
 
 
@@ -23,6 +25,18 @@ public class TestBase {
         }
 
     //-------------------------------------------------------------------------------------------------------------
+    public boolean isElrmrntPresent(By locator){
+        try {
+            driver.findElement(locator);
+            return true;
+        } catch (NoSuchElementException e) {
+            return false;
+        }
+    }
+    public boolean isElrmrntPresent2(By locator){
+        return driver.findElements(locator).size()>0;
+    }
+
     public void pause(int millis) throws InterruptedException {
             Thread.sleep(millis);
         }
@@ -77,7 +91,7 @@ public class TestBase {
     }
 
     public void pressSubmit() {
-        click(By.xpath("//button[@data-test-id='header-create-team-submit-button']"));
+        click(By.xpath("//button[@class='_1wsVKP33UvhH19 _3ILmkuUFmZ2HiZ _1LsB1Fm13rEW9M _1thuYnCmZHZEWI']"));
     }
 
     /*public void fillGroupCreationForm(String teamName) {
@@ -85,6 +99,7 @@ public class TestBase {
         driver.findElement(By.cssSelector("[class='_1Am_PrV0YBkAmt']")).clear();
        driver.findElement(By.cssSelector("[class='_1Am_PrV0YBkAmt']")).sendKeys(teamName);
     }*/
+    //------------------------------------------------------------------------------------------------------------------------
 
     public void selectTeamGroup() {
         click(By.xpath(" //button[@data-test-id='header-create-team-button']"));
@@ -97,7 +112,7 @@ public class TestBase {
        driver.findElement(By.cssSelector("[class='_1Am_PrV0YBkAmt']")).sendKeys(teamName);
     }
 
-    public void clickOnSumbitButton() {
+    public void clickOnSumbitDelition() {
         click(By.xpath("//input[@class='js-confirm full negate']"));
     }
 
@@ -121,7 +136,24 @@ public class TestBase {
         click(By.xpath("//span[@class='icon-sm icon-overflow-menu-horizontal board-header-btn-icon']"));
     }
 
-    public void chooseBoardForDelite() {
+    public void openFirstPrivateBoard() {
         click(By.xpath("//div[@class='board-tile-details is-badged'][1]"));
+    }
+
+    public void returnToHomePage() {
+        click(By.cssSelector("[href='/']"));
+    }
+
+    public int getPersonalBoardCount() {
+        return driver.findElements(By.xpath("//span[@class='icon-lg icon-member']/../../..//li")).size()-1;
+    }
+
+    public void cteateBoardFromDropDown() {
+        click(By.cssSelector("[class=_2b-xS2onqCL250]"));
+    }
+
+    public int getTeamsCount() {
+return driver.findElements(By.xpath("//div[@class='_2SmDbz1bYpPjKK']")).size();
+
     }
 }
