@@ -1,6 +1,7 @@
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -91,7 +92,7 @@ public class TestBase {
     }
 
     public void pressSubmit() {
-        click(By.xpath("//button[@class='_1wsVKP33UvhH19 _3ILmkuUFmZ2HiZ _1LsB1Fm13rEW9M _1thuYnCmZHZEWI']"));
+        click(By.xpath("//button[@data-test-id='header-create-board-submit-button']"));
     }
 
     /*public void fillGroupCreationForm(String teamName) {
@@ -119,13 +120,16 @@ public class TestBase {
     public void clickDeleteBoard() {
         click(By.xpath("//a[@class='quiet js-delete']"));
     }
+    ////a[@class='quiet js-delete']
 
     public void closeBoard() {
         click(By.xpath("//input[@class='js-confirm full negate']"));
     }
+    ////input[@class='js-confirm full negate']
 
     public void clickOnButtonCloseBoard() {
         click(By.xpath("//a[@class='board-menu-navigation-item-link js-close-board']"));
+        //board-menu-navigation-item-link js-close-board
     }
 
     public void clickOnButtonMore() {
@@ -133,11 +137,14 @@ public class TestBase {
     }
 
     public void openMenuOptions() {
-        click(By.xpath("//span[@class='icon-sm icon-overflow-menu-horizontal board-header-btn-icon']"));
+        click(By.xpath("//a[@class='board-menu-navigation-item-link js-open-card-filter']"));
     }
 
     public void openFirstPrivateBoard() {
-        click(By.xpath("//div[@class='board-tile-details is-badged'][1]"));
+        WebElement privateBoardList =driver.findElement(By.xpath("//span[@class='icon-lg icon-member']/../../..//ul"));
+        String boardNameForDelite = privateBoardList.findElement(By.xpath(".//li")).getText();
+        System.out.println(boardNameForDelite);
+        privateBoardList.findElement(By.xpath(".//li")).click();
     }
 
     public void returnToHomePage() {

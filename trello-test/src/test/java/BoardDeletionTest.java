@@ -1,4 +1,5 @@
 import org.openqa.selenium.By;
+import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -7,7 +8,7 @@ public class BoardDeletionTest extends TestBase{
     public void ensurePreconditions() throws InterruptedException {
        
         if(!isUserLoggedIn()) {
-            login("narishkaalex@gmail.com", "301184Alex");
+            login("narishka@walla.com", "202010Zxc");
         }
     }
 
@@ -16,16 +17,27 @@ public class BoardDeletionTest extends TestBase{
     }
 
     @Test
-    public void deletePrivateBoard(){
-        openFirstPrivateBoard();//class="icon-lg icon-member
-        //openMenuOptions();
-        clickOnButtonMore();
-        clickOnButtonCloseBoard();
-        closeBoard();
-        clickDeleteBoard();//.js-delete
-        clickOnSumbitDelition();//.js-confirm.full
-        returnToHomePage();//
+    public void deletePrivateBoard() throws InterruptedException {
+        int before= getPersonalBoardCount();
+        openFirstPrivateBoard();
+       // clickOnBackToMenu();
+        clickOnButtonMore();//span[@class='icon-sm icon-overflow-menu-horizontal board-menu-navigation-item-link-icon']
+        clickOnButtonCloseBoard();//board-menu-navigation-item-link js-close-board
+        pause(5000);
+        closeBoard();//input[@class='js-confirm full negate']
+        clickDeleteBoard();//a[@class='quiet js-delete']
+        clickOnSumbitDelition();//input[@class='js-confirm full negate']
+        pause(5000);
+        returnToHomePage();//span[@class='_2O4TvNuF7v0hxu GAI2GE8czAVHCQ _2CENIFUGJiOGXv _3Equ0AwjtQdiIh']
+
+       int after = getPersonalBoardCount();
+        Assert.assertEquals(after,before-1);
 
 
         }
+
+   /* public void clickOnBackToMenu() {
+        click(By.xpath("//a[@class='board-menu-header-back-button icon-lg icon-back js-pop-widget-view']"));
+    }*/
+
 }

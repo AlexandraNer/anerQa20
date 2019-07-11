@@ -7,7 +7,7 @@ public class BoardCreationsTest extends TestBase{
     @BeforeMethod
     public void ensurePreconditions() throws InterruptedException {
         if(isUserLoggedIn());
-        login("narishkaalex@gmail.com", "301184Alex");
+        login("narishka@walla.com", "202010Zxc");
     }
 
     public boolean isUserLoggedIn() {
