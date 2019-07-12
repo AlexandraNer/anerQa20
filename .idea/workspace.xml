@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96508e5c-a7f4-4904-aa3f-7b33777dbe56" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trello-test/out/test/classes/BoardDeletionTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/trello-test/out/test/classes/BoardDeletionTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trello-test/out/test/classes/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/trello-test/out/test/classes/TestBase.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/trello-test/src/test/java/BoardCreationsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/trello-test/src/test/java/BoardCreationsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/trello-test/src/test/java/BoardDeletionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/trello-test/src/test/java/BoardDeletionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trello-test/src/test/java/LogInTrelloTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/trello-test/src/test/java/LogInTrelloTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trello-test/src/test/java/TeamCreationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/trello-test/src/test/java/TeamCreationTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/trello-test/src/test/java/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/trello-test/src/test/java/TestBase.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -75,12 +74,46 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/trello-test/src/test/java/TestBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="150" column="40" selection-start-line="150" selection-start-column="40" selection-end-line="150" selection-end-column="40" />
+            <state relative-caret-position="119">
+              <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2887#2888#0" expanded="true" />
-                <element signature="e#2981#2982#0" expanded="true" />
+                <element signature="e#768#769#0" expanded="true" />
+                <element signature="e#790#791#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/trello-test/src/test/java/ApplicationManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#522#523#0" expanded="true" />
+                <element signature="e#551#552#0" expanded="true" />
+                <element signature="e#935#936#0" expanded="true" />
+                <element signature="e#995#996#0" expanded="true" />
+                <element signature="e#1138#1139#0" expanded="true" />
+                <element signature="e#1183#1184#0" expanded="true" />
+                <element signature="e#1213#1214#0" expanded="true" />
+                <element signature="e#1264#1265#0" expanded="true" />
+                <element signature="e#1468#1469#0" expanded="true" />
+                <element signature="e#1549#1550#0" expanded="true" />
+                <element signature="e#2706#2707#0" expanded="true" />
+                <element signature="e#2800#2801#0" expanded="true" />
+                <element signature="e#3313#3314#0" expanded="true" />
+                <element signature="e#3388#3389#0" expanded="true" />
+                <element signature="e#3426#3427#0" expanded="true" />
+                <element signature="e#3490#3491#0" expanded="true" />
+                <element signature="e#3522#3523#0" expanded="true" />
+                <element signature="e#3597#3598#0" expanded="true" />
+                <element signature="e#4511#4512#0" expanded="true" />
+                <element signature="e#4562#4563#0" expanded="true" />
+                <element signature="e#4763#4764#0" expanded="true" />
+                <element signature="e#4827#4828#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -89,8 +122,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/trello-test/src/test/java/BoardCreationsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-112">
-              <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+            <state relative-caret-position="95">
+              <caret line="19" column="49" lean-forward="true" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -125,8 +158,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/trello-test/src/test/java/LogInTrelloTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="30" selection-start-line="30" selection-end-line="30" />
+            <state relative-caret-position="-148">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#651#652#0" expanded="true" />
@@ -136,11 +169,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/trello-test/src/test/java/BoardDeletionTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
-              <caret line="22" column="30" lean-forward="true" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+            <state relative-caret-position="234">
+              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -182,9 +215,10 @@
         <option value="$PROJECT_DIR$/trello-test/src/test/java/BoardDeletiomTest.java" />
         <option value="$PROJECT_DIR$/trello-test/src/test/java/LogInTrelloTest.java" />
         <option value="$PROJECT_DIR$/trello-test/src/test/java/TeamCreationTest.java" />
-        <option value="$PROJECT_DIR$/trello-test/src/test/java/TestBase.java" />
         <option value="$PROJECT_DIR$/trello-test/src/test/java/BoardDeletionTest.java" />
         <option value="$PROJECT_DIR$/trello-test/src/test/java/BoardCreationsTest.java" />
+        <option value="$PROJECT_DIR$/trello-test/src/test/java/ApplicationManager.java" />
+        <option value="$PROJECT_DIR$/trello-test/src/test/java/TestBase.java" />
       </list>
     </option>
   </component>
@@ -387,7 +421,7 @@
     <frame x="-4" y="0" width="1452" height="784" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1875" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1875" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -478,10 +512,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.testng/testng/6.14.3/bfd2538501a129a142fe8366169c48b91609dc0b/testng-6.14.3-sources.jar!/org/testng/internal/Invoker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9333">
+          <caret line="592" selection-start-line="592" selection-end-line="592" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/trello-test/src/test/java/LogInTrelloTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        <state relative-caret-position="-148">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#651#652#0" expanded="true" />
@@ -490,41 +531,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.testng/testng/6.14.3/bfd2538501a129a142fe8366169c48b91609dc0b/testng-6.14.3-sources.jar!/org/testng/internal/Invoker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9333">
-          <caret line="592" selection-start-line="592" selection-end-line="592" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/trello-test/src/test/java/TestBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="150" column="40" selection-start-line="150" selection-start-column="40" selection-end-line="150" selection-end-column="40" />
+        <state relative-caret-position="119">
+          <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2887#2888#0" expanded="true" />
-            <element signature="e#2981#2982#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trello-test/src/test/java/BoardCreationsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-112">
-          <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#768#769#0" expanded="true" />
+            <element signature="e#790#791#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/trello-test/src/test/java/BoardDeletionTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="22" column="30" lean-forward="true" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+        <state relative-caret-position="234">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trello-test/src/test/java/BoardCreationsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="19" column="49" lean-forward="true" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trello-test/src/test/java/ApplicationManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#522#523#0" expanded="true" />
+            <element signature="e#551#552#0" expanded="true" />
+            <element signature="e#935#936#0" expanded="true" />
+            <element signature="e#995#996#0" expanded="true" />
+            <element signature="e#1138#1139#0" expanded="true" />
+            <element signature="e#1183#1184#0" expanded="true" />
+            <element signature="e#1213#1214#0" expanded="true" />
+            <element signature="e#1264#1265#0" expanded="true" />
+            <element signature="e#1468#1469#0" expanded="true" />
+            <element signature="e#1549#1550#0" expanded="true" />
+            <element signature="e#2706#2707#0" expanded="true" />
+            <element signature="e#2800#2801#0" expanded="true" />
+            <element signature="e#3313#3314#0" expanded="true" />
+            <element signature="e#3388#3389#0" expanded="true" />
+            <element signature="e#3426#3427#0" expanded="true" />
+            <element signature="e#3490#3491#0" expanded="true" />
+            <element signature="e#3522#3523#0" expanded="true" />
+            <element signature="e#3597#3598#0" expanded="true" />
+            <element signature="e#4511#4512#0" expanded="true" />
+            <element signature="e#4562#4563#0" expanded="true" />
+            <element signature="e#4763#4764#0" expanded="true" />
+            <element signature="e#4827#4828#0" expanded="true" />
           </folding>
         </state>
       </provider>

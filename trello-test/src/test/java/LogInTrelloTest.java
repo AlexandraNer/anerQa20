@@ -7,24 +7,24 @@ public class LogInTrelloTest extends TestBase{
     @Test
     public void login() throws InterruptedException {
         //driver.findElement(By.cssSelector("[href='/login']")).click();
-        getClick();// login
-        fillLoginForm("narishkaalex@gmail.com", "301184Alex");//fill login form
-        pause(3000);
-        confirmLogin();//confirm login
-        pause(10000);
+        app.getClick();// login
+        app.fillLoginForm("narishkaalex@gmail.com", "301184Alex");//fill login form
+        app.pause(3000);
+        app.confirmLogin();//confirm login
+        app.pause(10000);
     }
 
     // universary method
     public void type(By locator, String text) {
-        super.type(locator, text);
+        app.type(locator, text);
     }
 
     public void cteateBoardFromDropDown() {
-        super.cteateBoardFromDropDown();
+        app.cteateBoardFromDropDown();
     }
 
     @BeforeMethod
     public void ensurePreconditions() throws InterruptedException {
-        login("narishkaalex@gmail.com", "301184Alex");
+        app.login("narishkaalex@gmail.com", "301184Alex");
     }
 }

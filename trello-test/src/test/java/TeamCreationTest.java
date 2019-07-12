@@ -7,25 +7,25 @@ public class TeamCreationTest extends TestBase {
     @BeforeMethod
     public void ensurePreconditions() throws InterruptedException {
         if(isUserLoggedIn());
-        login("narishkaalex@gmail.com", "301184Alex");
+        app.login("narishkaalex@gmail.com", "301184Alex");
     }
 
     public boolean isUserLoggedIn() {
-        return isElrmrntPresent2(By.cssSelector("[href='/']"));
+        return app.isElrmrntPresent2(By.cssSelector("[href='/']"));
     }
 
     @Test
     public void createTeam() throws InterruptedException {
-        int before= getTeamsCount();
+        int before= app.getTeamsCount();
 
-        clickOnButtononeHeader();
-        selectTeamGroup();
-        typeTeamName("QA-20"+System.currentTimeMillis());
-        pause(7000);
-        pressSubmit();
-        returnToHomePage();
+        app.clickOnButtononeHeader();
+        app.selectTeamGroup();
+        app.typeTeamName("QA-20"+System.currentTimeMillis());
+        app.pause(7000);
+        app.pressSubmit();
+        app.returnToHomePage();
 
-        int after = getTeamsCount();
+        int after = app.getTeamsCount();
         Assert.assertEquals(after,before+1);
 
     }
