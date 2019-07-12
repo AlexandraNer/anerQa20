@@ -7,26 +7,26 @@ public class BoardCreationsTest extends TestBase{
     @BeforeMethod
     public void ensurePreconditions() throws InterruptedException {
         if(isUserLoggedIn());
-        login("narishka@walla.com", "202010Zxc");
+        app.login("narishka@walla.com", "202010Zxc");
     }
 
     public boolean isUserLoggedIn() {
-        return isElrmrntPresent2(By.cssSelector("[href='/']"));
+        return app.isElrmrntPresent2(By.cssSelector("[href='/']"));
     }
 
     @Test
     public void testCreation() throws InterruptedException {
 
-        int before = getPersonalBoardCount();
-        clickOnButtononeHeader();
-        cteateBoardFromDropDown();
-        pause(7000);
-        typeBoardName("qa20"+System.currentTimeMillis());
-        pressSubmit();
-        pause(10000);
-        returnToHomePage();
+        int before = app.getPersonalBoardCount();
+        app.clickOnButtononeHeader();
+        app.cteateBoardFromDropDown();
+        app.pause(7000);
+        app.typeBoardName("qa20"+System.currentTimeMillis());
+        app.pressSubmit();
+        app.pause(10000);
+        app.returnToHomePage();
 
-        int after= getPersonalBoardCount();
+        int after= app.getPersonalBoardCount();
         Assert.assertEquals(after,before+1);
     }
 
