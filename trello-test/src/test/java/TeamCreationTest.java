@@ -6,26 +6,26 @@ import org.testng.annotations.Test;
 public class TeamCreationTest extends TestBase {
     @BeforeMethod
     public void ensurePreconditions() throws InterruptedException {
-        if(isUserLoggedIn());
-        app.login("narishkaalex@gmail.com", "301184Alex");
+        if(app.getSession().isUserLoggedIn());
+        app.getSession().login("narishka@walla.com", "202010Zxc");
     }
 
-    public boolean isUserLoggedIn() {
+   /* public boolean isUserLoggedIn() {
         return app.isElrmrntPresent2(By.cssSelector("[href='/']"));
-    }
+    }*/
 
     @Test
     public void createTeam() throws InterruptedException {
-        int before= app.getTeamsCount();
+        int before= app.teams.getTeamsCount();
 
-        app.clickOnButtononeHeader();
-        app.selectTeamGroup();
-        app.typeTeamName("QA-20"+System.currentTimeMillis());
-        app.pause(7000);
-        app.pressSubmit();
-        app.returnToHomePage();
+        app.hedBut.clickOnPlusButtonOnHeader();
+        app.teams.selectTeamGroup();
+        app.teams.typeTeamName("QA-20"+System.currentTimeMillis());
+        app.session.pause(7000);
+        app.teams.submitCreateTeam();
+        app.hedBut.returnToHomePage();
 
-        int after = app.getTeamsCount();
+        int after = app.teams.getTeamsCount();
         Assert.assertEquals(after,before+1);
 
     }
