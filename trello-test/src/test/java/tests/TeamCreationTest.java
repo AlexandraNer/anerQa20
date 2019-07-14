@@ -1,3 +1,5 @@
+package tests;
+
 import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
@@ -22,7 +24,7 @@ public class TeamCreationTest extends TestBase {
         app.getTeams().submitCreateTeam();
         app.getHedBut().returnToHomePage();
 
-        int after = app.teams.getTeamsCount();
+        int after = app.getTeams().getTeamsCount();
         Assert.assertEquals(after,before+1);
 
     }

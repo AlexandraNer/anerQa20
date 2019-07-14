@@ -1,8 +1,10 @@
+package fw;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-public class HeaderButton extends HelperBase{
-    public HeaderButton(WebDriver driver) {
+public class HelperHeader extends HelperBase{
+    public HelperHeader(WebDriver driver) {
         super(driver);
     }
     public void clickOnPlusButtonOnHeader() {
