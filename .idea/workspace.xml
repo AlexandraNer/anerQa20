@@ -1,35 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="96508e5c-a7f4-4904-aa3f-7b33777dbe56" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/trello-test/src/test/java/fw/ApplicationManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trello-test/src/test/java/fw/Board.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trello-test/out/test/classes/ApplicationManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trello-test/out/test/classes/Board.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trello-test/out/test/classes/BoardCreationsTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trello-test/out/test/classes/BoardDeletionTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trello-test/out/test/classes/HeaderButton.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trello-test/out/test/classes/HelperBase.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trello-test/out/test/classes/LogInTrelloTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trello-test/out/test/classes/SessionHelper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trello-test/out/test/classes/TeamCreationTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trello-test/out/test/classes/Teams.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trello-test/out/test/classes/TestBase.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trello-test/out/test/classes/TrelloKatalon.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trello-test/src/test/java/ApplicationManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trello-test/src/test/java/Board.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trello-test/src/test/java/BoardCreationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/trello-test/src/test/java/tests/BoardCreationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trello-test/src/test/java/BoardDeletionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/trello-test/src/test/java/tests/BoardDeletionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trello-test/src/test/java/HeaderButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/trello-test/src/test/java/fw/HelperHeader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trello-test/src/test/java/HelperBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/trello-test/src/test/java/fw/HelperBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trello-test/src/test/java/LogInTrelloTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/trello-test/src/test/java/tests/LogInTrelloTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trello-test/src/test/java/SessionHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/trello-test/src/test/java/fw/SessionHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trello-test/src/test/java/TeamCreationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/trello-test/src/test/java/tests/TeamCreationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trello-test/src/test/java/Teams.java" beforeDir="false" afterPath="$PROJECT_DIR$/trello-test/src/test/java/fw/Teams.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trello-test/src/test/java/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/trello-test/src/test/java/tests/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trello-test/src/test/java/TrelloKatalon.java" beforeDir="false" />
-    </list>
+    <list default="true" id="96508e5c-a7f4-4904-aa3f-7b33777dbe56" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/Selenium-tsts/.gradle/" />
     <ignored path="$PROJECT_DIR$/Selenium-tsts/build/" />
@@ -155,7 +127,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/trello-test/src/test/java/tests/LogInTrelloTest.java">
+        <entry file="file://$PROJECT_DIR$/../anerQa20CW/TrelloTestsInClass/src/test/java/LogInTrelloTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
               <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
@@ -253,7 +225,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="-8" />
     <option name="width" value="1815" />
     <option name="height" value="980" />
@@ -291,22 +263,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Selenium-tsts" type="b2602c69:ProjectViewProjectNode" />
-              <item name="trello-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="fw" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Selenium-tsts" type="b2602c69:ProjectViewProjectNode" />
-              <item name="trello-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -476,7 +432,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="0" width="1452" height="784" extended-state="0" />
+    <frame x="-6" y="0" width="1452" height="784" extended-state="1" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49763033" visible="true" weight="0.1875" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -717,7 +673,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/trello-test/src/test/java/tests/LogInTrelloTest.java">
+    <entry file="file://$PROJECT_DIR$/../anerQa20CW/TrelloTestsInClass/src/test/java/LogInTrelloTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
