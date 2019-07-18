@@ -14,9 +14,9 @@ public class Teams extends HelperBase{
         //button[@data-test-id='header-create-team-button']
     }
     public void typeTeamName(String teamName) {
-        click(By.xpath("//input[@id='1563456253051-create-team-org-display-name']"));
-        driver.findElement(By.xpath("//input[@id='1563456253051-create-team-org-display-name']")).clear();
-        driver.findElement(By.xpath("//input[@id='1563456253051-create-team-org-display-name']")).sendKeys(teamName);
+        click(By.cssSelector("[data-test-id='header-create-team-name-input']"));
+        driver.findElement(By.cssSelector("[data-test-id='header-create-team-name-input']")).clear();
+        driver.findElement(By.cssSelector("[data-test-id='header-create-team-name-input']")).sendKeys(teamName);
     }
     public int getTeamsCount() {
         return driver.findElements(By.xpath("//div[@class='_2SmDbz1bYpPjKK']")).size();
