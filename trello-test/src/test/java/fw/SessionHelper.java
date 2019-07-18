@@ -1,5 +1,6 @@
 package fw;
 
+import model.User;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
@@ -12,16 +13,16 @@ public class SessionHelper extends HelperBase{
     public void confirmLogin() {
         click(By.id("login"));
     }
-    public void fillLoginForm(String email, String password) {
-       type(By.id("user"), email);
-        type(By.id("password"), password);
+    public void fillLoginForm(User user) {
+       type(By.id("user"), user.getEmail());
+        type(By.id("password"), user.getPassword());
     }
     public void pause(int millis) throws InterruptedException {
           Thread.sleep(millis);
         }
     public void login (String email, String pwd) throws InterruptedException {
         initLogin();
-        fillLoginForm(email,pwd);
+        fillLoginForm(new User().withEmail("").withPassword(""));
         pause(3000);
         confirmLogin();
         pause(10000);
