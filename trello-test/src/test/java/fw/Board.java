@@ -12,7 +12,7 @@ public class Board extends HelperBase{
     }
 
     public void typeBoardName(String boardName) {
-        type(By.cssSelector("[class=\"_2S-286TC5jzXKk\"]"), boardName);
+        type(By.xpath("//input[@data-test-id='header-create-board-title-input']"), boardName);
     }
 
     public void submitCreateBoard() {
@@ -24,7 +24,7 @@ public class Board extends HelperBase{
     }
 
     public void cteateBoardFromDropDown() {
-        click(By.cssSelector("[class=_2b-xS2onqCL250]"));
+        click(By.xpath("//button[@data-test-id='header-create-board-button']"));
     }
     //---------------------------------------------------------------------------------------------------
     public void clickOnSumbitDelition() {

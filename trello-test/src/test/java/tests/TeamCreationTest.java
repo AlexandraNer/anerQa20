@@ -15,19 +15,21 @@ public class TeamCreationTest extends TestBase {
 
     @Test
     public void createTeam() throws InterruptedException {
-        int before= app.getTeams().getTeamsCount();
+        //int before= app.getTeams().getTeamsCount();
 
         app.getHedBut().clickOnPlusButtonOnHeader();
         app.getTeams().selectTeamGroup();
-        app.getTeams().fillTeamForm(new Team("QA-20" + System.currentTimeMillis(), "description qa 20"));
+        app.getTeams().fillTeamForm(new Team()
+                .withTeamName("QA-20" + System.currentTimeMillis())
+                .withTeamDescription("description qa 20"));
         //app.getTeams().typeTeamName("QA-20"+System.currentTimeMillis());
 
         app.getSession().pause(7000);
         app.getTeams().submitCreateTeam();
         app.getHedBut().returnToHomePage();
 
-        // after = app.getTeams().getTeamsCount();
-       // Assert.assertEquals(after,before+1);
+//        int after = app.getTeams().getTeamsCount();
+//        Assert.assertEquals(after,before+1);
 
     }
 

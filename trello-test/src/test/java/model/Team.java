@@ -1,13 +1,10 @@
 package model;
 
 public class Team {
-    private final String teamName;
-    private final String teamDescription;
+    private String teamName;
+    private String teamDescription;
 
-    public Team(String teamName, String teamDescription) {
-        this.teamName = teamName;
-        this.teamDescription = teamDescription;
-    }
+
 
     public String getTeamName() {
         return teamName;
@@ -15,5 +12,15 @@ public class Team {
 
     public String getTeamDescription() {
         return teamDescription;
+    }
+
+    public Team withTeamName(String teamName) {
+        this.teamName = teamName;
+        return this;
+    }
+
+    public Team withTeamDescription(String teamDescription) {
+        this.teamDescription = teamDescription;
+        return this;
     }
 }
