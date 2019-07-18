@@ -19,7 +19,9 @@ public class TeamCreationTest extends TestBase {
 
         app.getHedBut().clickOnPlusButtonOnHeader();
         app.getTeams().selectTeamGroup();
-        app.getTeams().typeTeamName("QA-20"+System.currentTimeMillis());
+        app.getTeams().fillTeamForm("QA-20"+System.currentTimeMillis(),"description qa 20");
+        //app.getTeams().typeTeamName("QA-20"+System.currentTimeMillis());
+
         app.getSession().pause(7000);
         app.getTeams().submitCreateTeam();
         app.getHedBut().returnToHomePage();

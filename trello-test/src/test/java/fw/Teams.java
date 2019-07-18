@@ -24,4 +24,13 @@ public class Teams extends HelperBase{
     public void submitCreateTeam() {
         click(By.xpath("//button[@data-test-id='header-create-team-submit-button']"));
     }
+
+    public void fillTeamForm(String teamName,String teamDescription) {
+        typeTeamName(teamName);
+        typeTeamDescription(teamDescription);
+    }
+
+    public void typeTeamDescription(String teamDescription) {
+        type(By.cssSelector("[name=desc]"),teamDescription);
+    }
 }
