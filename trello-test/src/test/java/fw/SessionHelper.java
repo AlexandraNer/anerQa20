@@ -20,15 +20,21 @@ public class SessionHelper extends HelperBase{
           Thread.sleep(millis);
         }
     public void login (String email, String pwd) throws InterruptedException {
-        clickLoginButton();
+        initLogin();
         fillLoginForm(email,pwd);
         pause(3000);
         confirmLogin();
         pause(10000);
     }
-    public void clickLoginButton() {
-        click(By.xpath("//a[@href='/login']"));
-    }
+
+    public void initLogin() {
+            click(By.xpath("//*[@href='/login']"));
+        }
+
+
+//    public void clickLoginButton() {
+//        click(By.xpath("//a[@href='/login']"));
+//    }
 
     public boolean isUserLoggedIn() {
         return isElrmrntPresent2(By.xpath("//button[@class='_3bl7HhpXOOyEkB js-open-header-member-menu _2OG55MZw5Ysbaz']"));

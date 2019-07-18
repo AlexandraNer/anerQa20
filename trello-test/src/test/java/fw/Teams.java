@@ -1,5 +1,6 @@
 package fw;
 
+import model.Team;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
@@ -13,9 +14,9 @@ public class Teams extends HelperBase{
         //button[@data-test-id='header-create-team-button']
     }
     public void typeTeamName(String teamName) {
-        click(By.cssSelector("[class='_1Am_PrV0YBkAmt']"));
-        driver.findElement(By.cssSelector("[class='_1Am_PrV0YBkAmt']")).clear();
-        driver.findElement(By.cssSelector("[class='_1Am_PrV0YBkAmt']")).sendKeys(teamName);
+        click(By.xpath("//input[@id='1563456253051-create-team-org-display-name']"));
+        driver.findElement(By.xpath("//input[@id='1563456253051-create-team-org-display-name']")).clear();
+        driver.findElement(By.xpath("//input[@id='1563456253051-create-team-org-display-name']")).sendKeys(teamName);
     }
     public int getTeamsCount() {
         return driver.findElements(By.xpath("//div[@class='_2SmDbz1bYpPjKK']")).size();
@@ -25,9 +26,9 @@ public class Teams extends HelperBase{
         click(By.xpath("//button[@data-test-id='header-create-team-submit-button']"));
     }
 
-    public void fillTeamForm(String teamName,String teamDescription) {
-        typeTeamName(teamName);
-        typeTeamDescription(teamDescription);
+    public void fillTeamForm(Team team) {
+        typeTeamName(team.getTeamName());
+        typeTeamDescription(team.getTeamDescription());
     }
 
     public void typeTeamDescription(String teamDescription) {

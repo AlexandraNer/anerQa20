@@ -1,16 +1,16 @@
 package tests;
 
-import org.openqa.selenium.By;
+import model.Team;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 public class TeamCreationTest extends TestBase {
-    @BeforeMethod
-    public void ensurePreconditions() throws InterruptedException {
-        if(!app.getSession().isUserLoggedIn())
-        app.getSession().login("narishka@walla.com", "202010Zxc");
-    }
+//    @BeforeMethod
+//    public void ensurePreconditions() throws InterruptedException {
+//        if(!app.getSession().isUserLoggedIn())
+//        app.getSession().login("narishka@walla.com", "202010Zxc");
+//    }
 
 
     @Test
@@ -19,15 +19,15 @@ public class TeamCreationTest extends TestBase {
 
         app.getHedBut().clickOnPlusButtonOnHeader();
         app.getTeams().selectTeamGroup();
-        app.getTeams().fillTeamForm("QA-20"+System.currentTimeMillis(),"description qa 20");
+        app.getTeams().fillTeamForm(new Team("QA-20" + System.currentTimeMillis(), "description qa 20"));
         //app.getTeams().typeTeamName("QA-20"+System.currentTimeMillis());
 
         app.getSession().pause(7000);
         app.getTeams().submitCreateTeam();
         app.getHedBut().returnToHomePage();
 
-        int after = app.getTeams().getTeamsCount();
-        Assert.assertEquals(after,before+1);
+        // after = app.getTeams().getTeamsCount();
+       // Assert.assertEquals(after,before+1);
 
     }
 
