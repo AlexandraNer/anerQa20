@@ -10,13 +10,15 @@ public class SessionHelper extends HelperBase{
 
         super(driver);
     }
-    public void confirmLogin() {
+    public void confirmLogin()
+    {
         click(By.id("login"));
     }
     public void fillLoginForm(User user) {
        type(By.id("user"), user.getEmail());
         type(By.id("password"), user.getPassword());
     }
+
     public void pause(int millis) throws InterruptedException {
           Thread.sleep(millis);
         }
