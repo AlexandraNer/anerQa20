@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="tests.LoginTrelloTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-07-19T08:09:11" hostname="DESKTOP-HS9A9T3" time="15.009">
+  <properties/>
+  <testcase name="loginTest" classname="tests.LoginTrelloTest" time="15.009"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
