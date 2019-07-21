@@ -4,10 +4,6 @@
     <bytecodeTargetLevel>
       <module name="Selenium-tsts.main" target="1.8" />
       <module name="Selenium-tsts.test" target="1.8" />
-      <module name="testWikipedia_main" target="1.8" />
-      <module name="testWikipedia_test" target="1.8" />
-      <module name="web-tests_main" target="1.8" />
-      <module name="web-tests_test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

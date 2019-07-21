@@ -1,5 +1,6 @@
 package com.telRan.model.fw;
 
+import com.telRan.model.model.User;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
@@ -11,13 +12,14 @@ import java.util.concurrent.TimeUnit;
 
 public class ApplicationManager {
 
-    private String browser;
+
     Board board ;
     SessionHelper session;
     Teams teams;
     HelperHeader hedBut;
     HelperLogOut logOut;
     WebDriver driver;
+    String browser;
 
     public ApplicationManager(String browser) {
         this.browser = browser;
@@ -36,15 +38,19 @@ public class ApplicationManager {
         }else {
             System.out.println("Unknown browser format");
         }
-        driver = new FirefoxDriver();
-        driver.get("https://trello.com/");
+        //driver = new FirefoxDriver();
+        openSite("https://trello.com/");
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         session=new SessionHelper(driver);
-        session.login("narishka@walla.com","202010Zxc");
+        session.login(new User().withEmail("narishka@walla.com").withPassword("202010Zxc"));
         hedBut = new HelperHeader(driver);
         board = new Board(driver);
         teams = new Teams(driver);
-        logOut = new HelperLogOut(driver);
+        //logOut = new HelperLogOut(driver);
+    }
+
+    public void openSite(String url) {
+        driver.get(url);
     }
 
     public void stop() {

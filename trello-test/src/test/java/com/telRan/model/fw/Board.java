@@ -43,7 +43,7 @@ public class Board extends HelperBase{
         //board-menu-navigation-item-link js-close-board
     }
     public void clickOnButtonMore() {
-        click(By.xpath("//span[@class='icon-sm icon-overflow-menu-horizontal board-menu-navigation-item-link-icon']"));
+        click(By.xpath("//a[@class='board-menu-navigation-item-link js-open-more']"));
     }
     public void openMenuOptions() {
         click(By.xpath("//a[@class='board-menu-navigation-item-link js-open-card-filter']"));

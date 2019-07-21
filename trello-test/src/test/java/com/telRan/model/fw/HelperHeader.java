@@ -8,12 +8,11 @@ public class HelperHeader extends HelperBase{
         super(driver);
     }
     public void clickOnPlusButtonOnHeader() {
-        //click on button on the header
         click(By.xpath("//button[@data-test-id='header-create-menu-button']"));
     }
     public void returnToHomePage() {
-       // click(By.cssSelector("[href='/']"));
-        click(By.xpath("//a[@class='_2eXs5ruz0QfFdH']"));
+       click(By.cssSelector("[href='/']"));
+        //click(By.xpath("//a[@class='_2eXs5ruz0QfFdH']"));
 
     }
 

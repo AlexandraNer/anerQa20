@@ -19,7 +19,7 @@ public class Teams extends HelperBase{
         driver.findElement(By.cssSelector("[data-test-id='header-create-team-name-input']")).sendKeys(teamName);
     }
     public int getTeamsCount() {
-        return driver.findElements(By.xpath("//div[@class='_2SmDbz1bYpPjKK']")).size();
+        return driver.findElements(By.xpath("//div[@class='boards-page-top-banner']")).size();
 
     }
     public void submitCreateTeam() {

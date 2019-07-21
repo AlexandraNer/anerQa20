@@ -7,22 +7,20 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 public class LoginTrelloTest  extends  TestBase{
-    @BeforeClass
-    public void  preconditions(){
+    @BeforeMethod
+    public void  preconditions()throws InterruptedException{
         if(app.getSession().isUserLoggedIn()){
-
-//            app.getLogOut().clickOnAvatar();
-//            app.getLogOut().clickOnButtonLogOut();
+            app.getSession().logOut();
         }
     }
-    @AfterMethod
-    public void returnBack() {
-        app.getSession().returnBack();
-    }
+//    @AfterMethod
+//    public void returnBack() {
+//        app.getSession().returnBack();
+//    }
 
         @Test
         public void loginTest() throws InterruptedException {
-           //app.getSession().initLogin();
+           app.getSession().clickLoginButton();
             app.getSession().fillLoginForm(new User()
                     .withEmail("narishka@walla.com")
                     .withPassword("202010Zxc"));

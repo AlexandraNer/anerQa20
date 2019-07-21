@@ -1,8 +1,8 @@
 package com.telRan.model.model;
 
 public class User {
-    private String email;
-    private String password;
+    public String email;
+    public String password;
 
 
     public String getEmail() {

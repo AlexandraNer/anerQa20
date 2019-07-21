@@ -11,9 +11,8 @@ public class SessionHelper extends HelperBase{
         super(driver);
     }
     public void confirmLogin()
-    {
-        click(By.id("login"));
-    }
+    {click(By.cssSelector("#login[type=submit]"));}
+
     public void fillLoginForm(User user) {
        type(By.id("user"), user.getEmail());
         type(By.id("password"), user.getPassword());
@@ -22,24 +21,29 @@ public class SessionHelper extends HelperBase{
     public void pause(int millis) throws InterruptedException {
           Thread.sleep(millis);
         }
-    public void login (String email, String pwd) throws InterruptedException {
+    public void login (User user) throws InterruptedException {
         initLogin();
-        fillLoginForm(new User().withEmail("").withPassword(""));
+        fillLoginForm(user);
         pause(3000);
         confirmLogin();
         pause(10000);
     }
 
-    public void initLogin() {
-            click(By.xpath("//a[@href='/login']"));
+    public void initLogin() throws InterruptedException {
+        click(By.xpath("//*[@href='/login']"));
         }
 
 
-//    public void clickLoginButton() {
-//        click(By.xpath("//a[@href='/login']"));
-//    }
+    public void clickLoginButton() throws InterruptedException {
+        click(By.cssSelector("[href='/login']"));
+    }
 
     public boolean isUserLoggedIn() {
-        return isElrmrntPresent2(By.xpath("//button[@class='_3bl7HhpXOOyEkB js-open-header-member-menu _2OG55MZw5Ysbaz']"));
+        return isElrmrntPresent2(By.xpath("//button[@data-test-id='header-member-menu-button']"));
+    }
+
+    public void logOut() throws InterruptedException{
+        click(By.cssSelector(".js-open-header-member-menu"));
+        click(By.xpath("/html[1]/body[1]/div[1]/div[2]/div[2]/div[3]/div[1]/div[3]/nav[1]/ul[1]/li[7]/button[1]/span[1]"));
     }
 }

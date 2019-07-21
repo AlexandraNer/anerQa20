@@ -10,11 +10,11 @@
         </classes>
     </test>
 
-    <test name="web-Regression1">
-        <classes>
-            <class name="com.telRan.model.tests.LoginTrelloTest" />
-            <class name="com.telRan.model.tests.TeamCreationTest"/>
-            <class name="com.telRan.model.tests.BoardCreationTest"/>
-        </classes>
-    </test>
+<!--    <test name="web-Regression1">-->
+<!--        <classes>-->
+<!--            <class name="com.telRan.model.tests.LoginTrelloTest" />-->
+<!--            <class name="com.telRan.model.tests.TeamCreationTest"/>-->
+<!--            <class name="com.telRan.model.tests.BoardCreationTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
 </suite>
