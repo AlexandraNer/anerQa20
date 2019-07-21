@@ -17,7 +17,6 @@ public class ApplicationManager {
     SessionHelper session;
     Teams teams;
     HelperHeader hedBut;
-    HelperLogOut logOut;
     WebDriver driver;
     String browser;
 
@@ -73,7 +72,4 @@ public class ApplicationManager {
         return hedBut;
     }
 
-    public HelperLogOut getLogOut() {
-        return logOut;
-    }
 }

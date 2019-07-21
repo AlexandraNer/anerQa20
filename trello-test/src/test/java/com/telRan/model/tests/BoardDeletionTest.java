@@ -4,13 +4,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class BoardDeletionTest extends TestBase {
-//    @BeforeMethod
-//    public void ensurePreconditions() throws InterruptedException {
-//
-//        if(!app.getSession().isUserLoggedIn()) {
-//            app.getSession().login("narishka@walla.com", "202010Zxc");
-//        }
-//    }
+
 
     @Test
     public void deletePrivateBoard() throws InterruptedException {

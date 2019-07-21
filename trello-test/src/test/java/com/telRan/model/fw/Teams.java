@@ -34,4 +34,16 @@ public class Teams extends HelperBase{
     public void typeTeamDescription(String teamDescription) {
         type(By.cssSelector("[name=desc]"),teamDescription);
     }
+
+    public void chooseTeamForDelete() {
+        click(By.xpath("//body//a[3]"));
+    }
+
+    public void deleteThisTeam() {
+        click(By.xpath("//a[@class='quiet-button']"));
+    }
+
+    public void deleteForever() {
+        click(By.xpath("//input[@class='js-confirm full negate']"));
+    }
 }
