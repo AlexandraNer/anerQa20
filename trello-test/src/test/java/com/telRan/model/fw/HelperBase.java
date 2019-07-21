@@ -38,4 +38,8 @@ public class HelperBase {
     public boolean isElrmrntPresent2(By locator){
         return driver.findElements(locator).size()>0;
     }
+
+    public void returnBack() {
+        driver.navigate().back();
+    }
 }

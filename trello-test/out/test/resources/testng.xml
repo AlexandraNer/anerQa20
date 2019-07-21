@@ -6,7 +6,7 @@
             <class name="com.telRan.model.tests.LoginTrelloTest" />
             <class name="com.telRan.model.tests.BoardCreationTest" />
             <class name="com.telRan.model.tests.BoardDeletionTest" />
-            <class name="com.telRan.model.tests.LogOutTest" />
+            <class name="com.telRan.model.tests.TeamCreationTest" />
         </classes>
     </test>
 
@@ -14,7 +14,7 @@
         <classes>
             <class name="com.telRan.model.tests.LoginTrelloTest" />
             <class name="com.telRan.model.tests.TeamCreationTest"/>
-            <class name="com.telRan.model.tests.LogOutTest"/>
+            <class name="com.telRan.model.tests.BoardCreationTest"/>
         </classes>
     </test>
 </suite>
