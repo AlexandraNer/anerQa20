@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="tests.LoginTrelloTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-07-19T08:09:11" hostname="DESKTOP-HS9A9T3" time="15.009">
+<testsuite name="tests.LoginTrelloTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-07-20T15:06:29" hostname="DESKTOP-HS9A9T3" time="22.838">
   <properties/>
-  <testcase name="loginTest" classname="tests.LoginTrelloTest" time="15.009"/>
+  <testcase name="loginTest" classname="tests.LoginTrelloTest" time="22.838"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
+  <system-err><![CDATA[1563635189661	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1563635193953	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+]]></system-err>
 </testsuite>

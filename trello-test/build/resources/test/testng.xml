@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Trello-web" verbose="1" >
+    <test name="web-Smokey" >
+        <classes>
+            <class name="com.telRan.model.tests.LoginTrelloTest" />
+            <class name="com.telRan.model.tests.BoardCreationTest" />
+            <class name="com.telRan.model.tests.BoardDeletionTest" />
+            <class name="com.telRan.model.tests.TeamCreationTest" />
+        </classes>
+    </test>
+
+    <test name="web-Regression1">
+        <classes>
+            <class name="com.telRan.model.tests.LoginTrelloTest" />
+            <class name="com.telRan.model.tests.TeamCreationTest"/>
+            <class name="com.telRan.model.tests.BoardCreationTest "/>
+        </classes>
+    </test>
+</suite>

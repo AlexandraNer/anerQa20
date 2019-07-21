@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="tests.TeamCreationTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-07-19T08:09:26" hostname="DESKTOP-HS9A9T3" time="11.581">
+<testsuite name="tests.TeamCreationTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-07-20T15:07:01" hostname="DESKTOP-HS9A9T3" time="12.155">
   <properties/>
-  <testcase name="createTeam" classname="tests.TeamCreationTest" time="11.581"/>
+  <testcase name="createTeam" classname="tests.TeamCreationTest" time="12.155"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[1563523778182	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+  <system-err><![CDATA[1563635222528	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1563635223265	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1563635224025	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1563635224928	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1563635232794	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1563635233940	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
 bail@chrome://marionette/content/sync.js:237:64
 ]]></system-err>
 </testsuite>

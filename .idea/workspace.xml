@@ -3,15 +3,37 @@
   <component name="ChangeListManager">
     <list default="true" id="96508e5c-a7f4-4904-aa3f-7b33777dbe56" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trello-test/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/trello-test/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trello-test/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/trello-test/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trello-test/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/trello-test/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trello-test/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/trello-test/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trello-test/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/trello-test/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trello-test/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/trello-test/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trello-test/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/trello-test/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trello-test/src/test/java/fw/ApplicationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/trello-test/src/test/java/fw/ApplicationManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trello-test/src/test/java/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/trello-test/src/test/java/tests/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trello-test/out/test/classes/fw/ApplicationManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trello-test/out/test/classes/fw/Board.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trello-test/out/test/classes/fw/HelperBase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trello-test/out/test/classes/fw/HelperHeader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trello-test/out/test/classes/fw/HelperLogOut.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trello-test/out/test/classes/fw/SessionHelper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trello-test/out/test/classes/fw/Teams.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trello-test/out/test/classes/model/Team.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trello-test/out/test/classes/model/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trello-test/out/test/classes/tests/BoardCreationTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trello-test/out/test/classes/tests/BoardDeletionTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trello-test/out/test/classes/tests/LogOutTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trello-test/out/test/classes/tests/LoginTrelloTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trello-test/out/test/classes/tests/TeamCreationTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trello-test/out/test/classes/tests/TestBase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trello-test/src/test/java/fw/ApplicationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/trello-test/src/test/java/com/telRan/model/fw/ApplicationManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trello-test/src/test/java/fw/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/trello-test/src/test/java/com/telRan/model/fw/Board.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trello-test/src/test/java/fw/HelperBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/trello-test/src/test/java/com/telRan/model/fw/HelperBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trello-test/src/test/java/fw/HelperHeader.java" beforeDir="false" afterPath="$PROJECT_DIR$/trello-test/src/test/java/com/telRan/model/fw/HelperHeader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trello-test/src/test/java/fw/HelperLogOut.java" beforeDir="false" afterPath="$PROJECT_DIR$/trello-test/src/test/java/com/telRan/model/fw/HelperLogOut.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trello-test/src/test/java/fw/SessionHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/trello-test/src/test/java/com/telRan/model/fw/SessionHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trello-test/src/test/java/fw/Teams.java" beforeDir="false" afterPath="$PROJECT_DIR$/trello-test/src/test/java/com/telRan/model/fw/Teams.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trello-test/src/test/java/model/Team.java" beforeDir="false" afterPath="$PROJECT_DIR$/trello-test/src/test/java/com/telRan/model/model/Team.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trello-test/src/test/java/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/trello-test/src/test/java/com/telRan/model/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trello-test/src/test/java/tests/BoardCreationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/trello-test/src/test/java/com/telRan/model/tests/BoardCreationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trello-test/src/test/java/tests/BoardDeletionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/trello-test/src/test/java/com/telRan/model/tests/BoardDeletionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trello-test/src/test/java/tests/LogOutTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/trello-test/src/test/java/com/telRan/model/tests/LogOutTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trello-test/src/test/java/tests/LoginTrelloTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/trello-test/src/test/java/com/telRan/model/tests/LoginTrelloTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trello-test/src/test/java/tests/TeamCreationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/trello-test/src/test/java/com/telRan/model/tests/TeamCreationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trello-test/src/test/java/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/trello-test/src/test/java/com/telRan/model/tests/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trello-test/src/test/resources/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/trello-test/src/test/resources/testng.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/Selenium-tsts/.gradle/" />
@@ -61,11 +83,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/trello-test/src/test/java/tests/LoginTrelloTest.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/trello-test/src/test/java/com/telRan/model/tests/LoginTrelloTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="12" column="9" selection-start-line="9" selection-start-column="8" selection-end-line="12" selection-end-column="9" />
+            <state relative-caret-position="27">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -74,19 +96,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/trello-test/src/test/java/fw/ApplicationManager.java">
+        <entry file="file://$PROJECT_DIR$/trello-test/src/test/java/com/telRan/model/fw/SessionHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="29" column="48" selection-start-line="29" selection-start-column="48" selection-end-line="29" selection-end-column="48" />
+            <state relative-caret-position="106">
+              <caret line="33" column="47" selection-start-line="33" selection-start-column="47" selection-end-line="33" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/trello-test/src/test/resources/testng.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="65" selection-start-line="7" selection-start-column="65" selection-end-line="7" selection-end-column="65" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/trello-test/src/test/java/com/telRan/model/fw/ApplicationManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="28" column="41" lean-forward="true" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
               <folding>
-                <element signature="e#550#551#0" expanded="true" />
                 <element signature="e#587#588#0" expanded="true" />
-                <element signature="e#1607#1608#0" expanded="true" />
-                <element signature="e#1784#1785#0" expanded="true" />
-                <element signature="e#1854#1855#0" expanded="true" />
-                <element signature="e#1912#1913#0" expanded="true" />
-                <element signature="e#1979#1980#0" expanded="true" />
-                <element signature="e#2047#2048#0" expanded="true" />
+                <element signature="e#625#626#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -95,7 +129,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/trello-test/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
+            <state relative-caret-position="157">
               <caret line="18" column="15" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
             </state>
           </provider>
@@ -106,68 +140,38 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/trello-test/src/test/resources/testng.xml">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/trello-test/build/resources/test/testng.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+            <state relative-caret-position="272">
+              <caret line="16" column="66" selection-start-line="16" selection-start-column="66" selection-end-line="16" selection-end-column="66" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/trello-test/src/test/java/tests/LogOutTest.java">
+        <entry file="file://$PROJECT_DIR$/trello-test/src/test/java/com/telRan/model/tests/BoardCreationTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+            <state relative-caret-position="89">
+              <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/trello-test/src/test/java/fw/HelperLogOut.java">
+        <entry file="file://$PROJECT_DIR$/trello-test/src/test/java/com/telRan/model/tests/BoardDeletionTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="106">
+              <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/trello-test/src/test/java/tests/TestBase.java">
+        <entry file="file://$PROJECT_DIR$/trello-test/src/test/java/com/telRan/model/tests/TestBase.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
-              <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/trello-test/src/test/java/fw/SessionHelper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
-              <folding>
-                <element signature="e#260#261#0" expanded="true" />
-                <element signature="e#297#298#0" expanded="true" />
-                <element signature="e#816#817#0" expanded="true" />
-                <element signature="e#878#879#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/trello-test/src/test/java/fw/HelperBase.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="107">
-              <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
-              <folding>
-                <element signature="e#296#297#0" expanded="true" />
-                <element signature="e#349#350#0" expanded="true" />
-                <element signature="e#943#944#0" expanded="true" />
-                <element signature="e#1003#1004#0" expanded="true" />
-              </folding>
+              <caret line="9" column="78" selection-start-line="9" selection-start-column="78" selection-end-line="9" selection-end-column="78" />
             </state>
           </provider>
         </entry>
@@ -187,16 +191,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/trello-test/src/test/java/CreateTeamTest.java" />
-        <option value="$PROJECT_DIR$/trello-test/src/test/java/BoardDeletiomTest.java" />
-        <option value="$PROJECT_DIR$/trello-test/src/test/java/SeassionHelper.java" />
-        <option value="$PROJECT_DIR$/trello-test/src/test/java/HelperBase.java" />
-        <option value="$PROJECT_DIR$/trello-test/src/test/java/LogInTrelloTest.java" />
-        <option value="$PROJECT_DIR$/trello-test/src/test/java/Teams.java" />
-        <option value="$PROJECT_DIR$/trello-test/src/test/java/HeaderButton.java" />
-        <option value="$PROJECT_DIR$/trello-test/src/test/java/SessionHelper.java" />
-        <option value="$PROJECT_DIR$/trello-test/src/test/java/BoardCreationsTest.java" />
-        <option value="$PROJECT_DIR$/trello-test/src/test/java/TeamCreationTest.java" />
         <option value="$PROJECT_DIR$/trello-test/src/test/java/TestBase.java" />
         <option value="$PROJECT_DIR$/trello-test/src/test/java/LogOut.java" />
         <option value="$PROJECT_DIR$/trello-test/src/test/java/HelperLogOut.java" />
@@ -238,6 +232,16 @@
         <option value="$PROJECT_DIR$/trello-test/src/test/java/tests/TestBase.java" />
         <option value="$PROJECT_DIR$/trello-test/build.gradle" />
         <option value="$PROJECT_DIR$/trello-test/src/test/resources/testng.xml" />
+        <option value="$PROJECT_DIR$/trello-test/src/test/java/com/telRan/model/tests/BoardDeletionTest.java" />
+        <option value="$PROJECT_DIR$/trello-test/src/test/java/com/telRan/model/tests/LogOutTest.java" />
+        <option value="$PROJECT_DIR$/trello-test/src/test/java/com/telRan/model/tests/TeamCreationTest.java" />
+        <option value="$PROJECT_DIR$/trello-test/src/test/java/com/telRan/model/fw/HelperLogOut.java" />
+        <option value="$PROJECT_DIR$/trello-test/src/test/java/com/telRan/model/tests/BoardCreationTest.java" />
+        <option value="$PROJECT_DIR$/trello-test/src/test/java/com/telRan/model/tests/TestBase.java" />
+        <option value="$PROJECT_DIR$/trello-test/src/test/java/com/telRan/model/fw/SessionHelper.java" />
+        <option value="$PROJECT_DIR$/trello-test/build/resources/test/testng.xml" />
+        <option value="$PROJECT_DIR$/trello-test/src/test/java/com/telRan/model/fw/ApplicationManager.java" />
+        <option value="$PROJECT_DIR$/trello-test/src/test/java/com/telRan/model/tests/LoginTrelloTest.java" />
       </list>
     </option>
   </component>
@@ -271,6 +275,37 @@
             <path>
               <item name="Selenium-tsts" type="b2602c69:ProjectViewProjectNode" />
               <item name="trello-test" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Selenium-tsts" type="b2602c69:ProjectViewProjectNode" />
+              <item name="trello-test" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="reports" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Selenium-tsts" type="b2602c69:ProjectViewProjectNode" />
+              <item name="trello-test" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="reports" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Selenium-tsts" type="b2602c69:ProjectViewProjectNode" />
+              <item name="trello-test" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Selenium-tsts" type="b2602c69:ProjectViewProjectNode" />
+              <item name="trello-test" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Selenium-tsts" type="b2602c69:ProjectViewProjectNode" />
+              <item name="trello-test" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -285,6 +320,32 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Selenium-tsts" type="b2602c69:ProjectViewProjectNode" />
+              <item name="trello-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Selenium-tsts" type="b2602c69:ProjectViewProjectNode" />
+              <item name="trello-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="fw" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Selenium-tsts" type="b2602c69:ProjectViewProjectNode" />
+              <item name="trello-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Selenium-tsts" type="b2602c69:ProjectViewProjectNode" />
@@ -335,17 +396,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.LoginTrelloTest">
-    <configuration name="BoardCreationTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.C:/Users/alex/Documents/GitHub/anerQa20/trello-test/src/test/resources/testng.xml">
+    <configuration name="BoardCreationTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="trello-test_test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.telRan.tests.*" />
+          <option name="PATTERN" value="com.telRan.model.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.telRan.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.telRan.tests.BoardCreationTest" />
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="com.telRan.model.tests.BoardCreationTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -353,17 +414,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BoardCreationTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C:/Users/alex/Documents/GitHub/anerQa20/trello-test/build/resources/test/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/trello-test/build/resources/test/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/alex/Documents/GitHub/anerQa20/trello-test/src/test/resources/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="trello-test_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.BoardCreationTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/trello-test/src/test/resources/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
@@ -374,12 +437,12 @@
       <module name="trello-test_test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.*" />
+          <option name="PATTERN" value="com.telRan.model.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.LoginTrelloTest" />
+      <option name="MAIN_CLASS_NAME" value="com.telRan.model.tests.LoginTrelloTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -391,12 +454,12 @@
       <module name="trello-test_test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.*" />
+          <option name="PATTERN" value="com.telRan.model.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.TeamCreationTest" />
+      <option name="MAIN_CLASS_NAME" value="com.telRan.model.tests.TeamCreationTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -420,29 +483,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="tests" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="trello-test_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="TEST_OBJECT" value="PACKAGE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/Users/alex/Documents/GitHub/anerQa20/trello-test/src/test/resources/testng.xml" />
+        <item itemvalue="TestNG.C:/Users/alex/Documents/GitHub/anerQa20/trello-test/build/resources/test/testng.xml" />
         <item itemvalue="TestNG.LoginTrelloTest" />
         <item itemvalue="TestNG.TeamCreationTest (1)" />
         <item itemvalue="TestNG.BoardCreationTest" />
-        <item itemvalue="TestNG.tests" />
-        <item itemvalue="TestNG.BoardCreationTest (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -460,39 +507,40 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LoginTrelloTest - 2019.07.18 at 18h 40m 07s.xml">
+    <history-entry file="C__Users_alex_Documents_GitHub_anerQa20_trello-test_src_test_resources_testng_xml - 2019.07.19 at 11h 57m 37s.xml">
+      <configuration name="C:/Users/alex/Documents/GitHub/anerQa20/trello-test/src/test/resources/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_alex_Documents_GitHub_anerQa20_trello-test_src_test_resources_testng_xml - 2019.07.19 at 21h 28m 18s.xml">
+      <configuration name="C:/Users/alex/Documents/GitHub/anerQa20/trello-test/src/test/resources/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_alex_Documents_GitHub_anerQa20_trello-test_src_test_resources_testng_xml - 2019.07.19 at 21h 39m 36s.xml">
+      <configuration name="C:/Users/alex/Documents/GitHub/anerQa20/trello-test/src/test/resources/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_alex_Documents_GitHub_anerQa20_trello-test_src_test_resources_testng_xml - 2019.07.19 at 21h 47m 11s.xml">
+      <configuration name="C:/Users/alex/Documents/GitHub/anerQa20/trello-test/src/test/resources/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_alex_Documents_GitHub_anerQa20_trello-test_src_test_resources_testng_xml - 2019.07.19 at 21h 55m 03s.xml">
+      <configuration name="C:/Users/alex/Documents/GitHub/anerQa20/trello-test/src/test/resources/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_alex_Documents_GitHub_anerQa20_trello-test_src_test_resources_testng_xml - 2019.07.19 at 22h 01m 11s.xml">
+      <configuration name="C:/Users/alex/Documents/GitHub/anerQa20/trello-test/src/test/resources/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LoginTrelloTest - 2019.07.20 at 17h 25m 25s.xml">
       <configuration name="LoginTrelloTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LoginTrelloTest - 2019.07.18 at 18h 47m 46s.xml">
-      <configuration name="LoginTrelloTest" configurationId="TestNG" />
+    <history-entry file="C__Users_alex_Documents_GitHub_anerQa20_trello-test_build_resources_test_testng_xml - 2019.07.21 at 13h 41m 31s.xml">
+      <configuration name="C:/Users/alex/Documents/GitHub/anerQa20/trello-test/build/resources/test/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LoginTrelloTest - 2019.07.18 at 19h 00m 16s.xml">
-      <configuration name="LoginTrelloTest" configurationId="TestNG" />
+    <history-entry file="C__Users_alex_Documents_GitHub_anerQa20_trello-test_build_resources_test_testng_xml - 2019.07.21 at 13h 42m 57s.xml">
+      <configuration name="C:/Users/alex/Documents/GitHub/anerQa20/trello-test/build/resources/test/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LoginTrelloTest - 2019.07.18 at 19h 31m 29s.xml">
-      <configuration name="LoginTrelloTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TeamCreationTest - 2019.07.18 at 19h 47m 16s.xml">
-      <configuration name="TeamCreationTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TeamCreationTest - 2019.07.18 at 19h 51m 19s.xml">
-      <configuration name="TeamCreationTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TeamCreationTest - 2019.07.18 at 19h 52m 48s.xml">
-      <configuration name="TeamCreationTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TeamCreationTest - 2019.07.18 at 19h 55m 47s.xml">
-      <configuration name="TeamCreationTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TeamCreationTest - 2019.07.18 at 19h 56m 51s.xml">
-      <configuration name="TeamCreationTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LoginTrelloTest - 2019.07.19 at 09h 15m 19s.xml">
-      <configuration name="LoginTrelloTest" configurationId="TestNG" />
+    <history-entry file="C__Users_alex_Documents_GitHub_anerQa20_trello-test_src_test_resources_testng_xml - 2019.07.21 at 13h 47m 42s.xml">
+      <configuration name="C:/Users/alex/Documents/GitHub/anerQa20/trello-test/src/test/resources/testng.xml" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1452" height="784" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49763033" visible="true" weight="0.2112069" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -503,7 +551,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.50236964" side_tool="true" weight="0.1875" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.33863276" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.27027026" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.41017488" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3974563" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -735,139 +783,92 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/trello-test/src/test/java/model/Team.java">
+    <entry file="file://$PROJECT_DIR$/trello-test/src/test/java/com/telRan/model/model/Team.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/trello-test/src/test/java/fw/Board.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="74">
-          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trello-test/src/test/java/tests/BoardCreationTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="12" column="7" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="12" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trello-test/src/test/java/model/User.java">
+    <entry file="file://$PROJECT_DIR$/trello-test/src/test/java/com/telRan/model/model/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/trello-test/src/test/java/fw/HelperHeader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trello-test/src/test/java/tests/TeamCreationTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trello-test/src/test/java/fw/Teams.java">
+    <entry file="file://$PROJECT_DIR$/trello-test/src/test/java/com/telRan/model/fw/Teams.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="214">
           <caret line="21" column="77" selection-start-line="21" selection-start-column="77" selection-end-line="21" selection-end-column="77" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/trello-test/src/test/java/tests/BoardDeletionTest.java">
+    <entry file="file://$PROJECT_DIR$/trello-test/src/test/java/com/telRan/model/fw/Board.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="99">
+          <caret line="51" column="44" selection-start-line="51" selection-start-column="44" selection-end-line="51" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/trello-test/src/test/java/tests/LogOutTest.java">
+    <entry file="file://$PROJECT_DIR$/trello-test/src/test/java/com/telRan/model/tests/TeamCreationTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+        <state relative-caret-position="114">
+          <caret line="17" column="8" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/trello-test/src/test/java/fw/HelperLogOut.java">
+    <entry file="file://$PROJECT_DIR$/trello-test/src/test/java/com/telRan/model/fw/HelperLogOut.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="99">
+          <caret line="11" column="78" selection-start-line="11" selection-start-column="78" selection-end-line="11" selection-end-column="78" />
+          <folding>
+            <element signature="e#258#259#0" expanded="true" />
+            <element signature="e#345#346#0" expanded="true" />
+            <element signature="e#383#384#0" expanded="true" />
+            <element signature="e#470#471#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/trello-test/src/test/java/fw/HelperBase.java">
+    <entry file="file://$PROJECT_DIR$/trello-test/src/test/java/com/telRan/model/tests/LogOutTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trello-test/src/test/java/com/telRan/model/fw/HelperHeader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trello-test/src/test/java/com/telRan/model/fw/HelperBase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="107">
           <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
-          <folding>
-            <element signature="e#296#297#0" expanded="true" />
-            <element signature="e#349#350#0" expanded="true" />
-            <element signature="e#943#944#0" expanded="true" />
-            <element signature="e#1003#1004#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/trello-test/src/test/java/tests/LoginTrelloTest.java">
+    <entry file="file://$PROJECT_DIR$/trello-test/src/test/resources/testng.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="12" column="9" selection-start-line="9" selection-start-column="8" selection-end-line="12" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="119">
+          <caret line="7" column="65" selection-start-line="7" selection-start-column="65" selection-end-line="7" selection-end-column="65" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/trello-test/src/test/java/fw/SessionHelper.java">
+    <entry file="file://$PROJECT_DIR$/trello-test/src/test/java/com/telRan/model/fw/SessionHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
-          <folding>
-            <element signature="e#260#261#0" expanded="true" />
-            <element signature="e#297#298#0" expanded="true" />
-            <element signature="e#816#817#0" expanded="true" />
-            <element signature="e#878#879#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trello-test/src/test/java/fw/ApplicationManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="29" column="48" selection-start-line="29" selection-start-column="48" selection-end-line="29" selection-end-column="48" />
-          <folding>
-            <element signature="e#550#551#0" expanded="true" />
-            <element signature="e#587#588#0" expanded="true" />
-            <element signature="e#1607#1608#0" expanded="true" />
-            <element signature="e#1784#1785#0" expanded="true" />
-            <element signature="e#1854#1855#0" expanded="true" />
-            <element signature="e#1912#1913#0" expanded="true" />
-            <element signature="e#1979#1980#0" expanded="true" />
-            <element signature="e#2047#2048#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trello-test/src/test/java/tests/TestBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+        <state relative-caret-position="106">
+          <caret line="33" column="47" selection-start-line="33" selection-start-column="47" selection-end-line="33" selection-end-column="47" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/trello-test/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
+        <state relative-caret-position="157">
           <caret line="18" column="15" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
         </state>
       </provider>
@@ -875,10 +876,52 @@
     <entry file="file://$PROJECT_DIR$/trello-test/build/reports/tests/test/index.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/trello-test/src/test/resources/testng.xml">
+    <entry file="file://$PROJECT_DIR$/trello-test/build/resources/test/testng.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+        <state relative-caret-position="272">
+          <caret line="16" column="66" selection-start-line="16" selection-start-column="66" selection-end-line="16" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trello-test/src/test/java/com/telRan/model/tests/BoardCreationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trello-test/src/test/java/com/telRan/model/tests/BoardDeletionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trello-test/src/test/java/com/telRan/model/tests/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="78" selection-start-line="9" selection-start-column="78" selection-end-line="9" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trello-test/src/test/java/com/telRan/model/fw/ApplicationManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="28" column="41" lean-forward="true" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
+          <folding>
+            <element signature="e#587#588#0" expanded="true" />
+            <element signature="e#625#626#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trello-test/src/test/java/com/telRan/model/tests/LoginTrelloTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
