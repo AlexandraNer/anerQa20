@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="tests.TeamCreationTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-07-22T19:38:10" hostname="DESKTOP-HS9A9T3" time="9.814">
+<testsuite name="tests.TeamCreationTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-07-22T21:46:59" hostname="DESKTOP-HS9A9T3" time="10.313">
   <properties/>
-  <testcase name="createTeam" classname="tests.TeamCreationTest" time="9.814"/>
+  <testcase name="createTeam" classname="tests.TeamCreationTest" time="10.313"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

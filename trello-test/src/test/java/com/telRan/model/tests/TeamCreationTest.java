@@ -8,8 +8,9 @@ public class TeamCreationTest extends TestBase {
 
     @Test
     public void createTeam() throws InterruptedException {
+
         int before= app.getTeams().getTeamsCount();
-app.getHedBut().clickOnPlusButtonOnHeader();
+        app.getBoard().clickOnPlusButtonOnHeader();
         app.getTeams().selectTeamGroup();
         app.getTeams().fillTeamForm(new Team()
                 .withTeamName("QA-20" + System.currentTimeMillis())
@@ -17,9 +18,9 @@ app.getHedBut().clickOnPlusButtonOnHeader();
 
         app.getSession().pause(7000);
         app.getTeams().submitCreateTeam();
-        app.getHedBut().returnToHomePage();
-        app.getHedBut().returnToHomePage();
-        app.getHedBut().returnToHomePage();
+        app.getBoard().returnToHomePage();
+        app.getBoard().returnToHomePage();
+
 
         int after = app.getTeams().getTeamsCount();
         Assert.assertEquals(after,before+1);

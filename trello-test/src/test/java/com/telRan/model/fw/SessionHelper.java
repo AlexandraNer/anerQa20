@@ -44,6 +44,6 @@ public class SessionHelper extends HelperBase{
 
     public void logOut() throws InterruptedException{
         click(By.cssSelector(".js-open-header-member-menu"));
-        click(By.xpath("/html[1]/body[1]/div[1]/div[2]/div[2]/div[3]/div[1]/div[3]/nav[1]/ul[1]/li[7]/button[1]/span[1]"));
+        click(By.xpath("//button[@data-test-id='header-member-menu-logout']"));
     }
 }

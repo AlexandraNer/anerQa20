@@ -13,10 +13,9 @@ import java.util.concurrent.TimeUnit;
 public class ApplicationManager {
 
 
-    Board board ;
+    private Board board ;
     SessionHelper session;
     Teams teams;
-    HelperHeader hedBut;
     WebDriver driver;
     String browser;
 
@@ -41,7 +40,6 @@ public class ApplicationManager {
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         session=new SessionHelper(driver);
         session.login(new User().withEmail("narishka@walla.com").withPassword("202010Zxc"));
-        hedBut = new HelperHeader(driver);
         board = new Board(driver);
         teams = new Teams(driver);
 
@@ -67,8 +65,6 @@ public class ApplicationManager {
     public Teams getTeams() {
         return teams;
     }
-    public HelperHeader getHedBut() {
-        return hedBut;
-    }
+
 
 }

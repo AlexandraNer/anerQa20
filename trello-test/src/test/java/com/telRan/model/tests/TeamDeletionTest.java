@@ -12,9 +12,9 @@ public class TeamDeletionTest extends TestBase{
             app.getTeams().chooseTeamForDelete();////a[@href='/12x649/account']
             app.getTeams().deleteThisTeam();////a[@class='quiet-button']
             app.getTeams().deleteForever();////input[@class='js-confirm full negate']
-            app.getHedBut().pause(5000);
-            app.getHedBut().returnToHomePage();
-            app.getHedBut().returnToHomePage();
+            app.getBoard().pause(5000);
+            app.getBoard().returnToHomePage();
+            app.getBoard().returnToHomePage();
 
         int after = app.getTeams().getTeamsCount();
         Assert.assertEquals(after,before-1);

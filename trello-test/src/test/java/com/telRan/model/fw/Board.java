@@ -26,6 +26,15 @@ public class Board extends HelperBase{
     public void cteateBoardFromDropDown() {
         click(By.xpath("//button[@data-test-id='header-create-board-button']"));
     }
+
+    public void clickOnPlusButtonOnHeader() {
+        click(By.name("add"));
+    }
+    public void returnToHomePage() {
+        click(By.cssSelector("[href='/']"));
+
+
+    }
     //---------------------------------------------------------------------------------------------------
     public void clickOnSumbitDelition() {
         click(By.xpath("//input[@class='js-confirm full negate']"));
