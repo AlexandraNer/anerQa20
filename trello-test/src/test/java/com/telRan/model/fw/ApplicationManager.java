@@ -37,7 +37,6 @@ public class ApplicationManager {
         }else {
             System.out.println("Unknown browser format");
         }
-        //driver = new FirefoxDriver();
         openSite("https://trello.com/");
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         session=new SessionHelper(driver);
@@ -45,7 +44,7 @@ public class ApplicationManager {
         hedBut = new HelperHeader(driver);
         board = new Board(driver);
         teams = new Teams(driver);
-        //logOut = new HelperLogOut(driver);
+
     }
 
     public void openSite(String url) {

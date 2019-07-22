@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.telRan.model.tests.TeamCreationTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-07-21T21:29:33" hostname="DESKTOP-HS9A9T3" time="16.636">
+<testsuite name="com.telRan.model.tests.TeamCreationTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-07-22T19:37:56" hostname="DESKTOP-HS9A9T3" time="13.741">
   <properties/>
-  <testcase name="createTeam" classname="com.telRan.model.tests.TeamCreationTest" time="16.636"/>
+  <testcase name="createTeam" classname="com.telRan.model.tests.TeamCreationTest" time="13.741"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[1563744589816	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
-bail@chrome://marionette/content/sync.js:237:64
-]]></system-err>
+  <system-err><![CDATA[]]></system-err>
 </testsuite>

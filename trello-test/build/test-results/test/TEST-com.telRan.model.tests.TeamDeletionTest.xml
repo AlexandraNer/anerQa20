@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.telRan.model.tests.TeamDeletionTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-07-22T19:38:19" hostname="DESKTOP-HS9A9T3" time="7.6">
+  <properties/>
+  <testcase name="deleteTeam" classname="com.telRan.model.tests.TeamDeletionTest" time="7.6"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
