@@ -1,12 +1,16 @@
 package com.telRan.model.tests;
 
 import org.testng.Assert;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
+
+import java.util.Iterator;
 
 public class BoardCreationTest extends TestBase {
 
     @Test
     public void testCreation() throws InterruptedException {
+
         int before = app.getBoard().getPersonalBoardCount();
 
         app.getBoard().pause(3000);
