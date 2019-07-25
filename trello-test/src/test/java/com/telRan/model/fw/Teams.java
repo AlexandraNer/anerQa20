@@ -3,6 +3,8 @@ package com.telRan.model.fw;
 import com.telRan.model.model.Team;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 
 public class Teams extends HelperBase{
 
@@ -45,5 +47,32 @@ public class Teams extends HelperBase{
 
     public void deleteForever() {
         click(By.xpath("//input[@class='js-confirm full negate']"));
+    }
+    //---------------
+    public void changeOfPhoto() throws InterruptedException {
+
+        click(By.xpath("//button[@data-test-id='header-member-menu-button']"));
+        click(By.xpath("//a[@data-test-id='header-member-menu-profile']"));
+        pause(3000);
+    }
+    public void attachPhoto() throws InterruptedException {
+        Actions actions = new Actions(driver);
+        WebElement photo = driver.findElement(By.xpath("//div[@class='rsiNque2CCqtPE']"));
+        pause(3000);
+        actions.moveToElement(photo).click().perform();
+    }
+    public void choosePhoto() throws InterruptedException {
+
+        WebElement uploadElement = driver.findElement(By.cssSelector("[name='attachment']"));
+        uploadElement.click();
+        pause(3000);
+        uploadElement.sendKeys("C:\\Users\\alex\\Pictures\\Camera1\\20171015_175149.jpg");
+
+    }
+
+
+    public void doubleClick() {
+        Actions actions = new Actions(driver);
+        actions.doubleClick();
     }
 }

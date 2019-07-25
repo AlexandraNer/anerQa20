@@ -1,7 +1,12 @@
 package com.telRan.model.tests;
 
 import com.telRan.model.model.User;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.*;
+
+import javax.swing.*;
 
 public class LoginTrelloTest  extends  TestBase{
     @BeforeTest
@@ -24,10 +29,9 @@ public class LoginTrelloTest  extends  TestBase{
             app.getSession().pause(3000);
             app.getSession().confirmLogin();
             app.getSession().pause(10000);
-
-
-
-
     }
+
+
+
 
 }
