@@ -62,16 +62,17 @@ public class Teams extends HelperBase{
         actions.moveToElement(photo).click().perform();
     }
     public void choosePhoto() throws InterruptedException {
-
+String filePhath = "C:/Users/alex/Pictures/Camera1/20171015_175149.jpg";
         WebElement uploadElement = driver.findElement(By.cssSelector("[name='attachment']"));
         uploadElement.click();
         pause(3000);
-        uploadElement.sendKeys("C:\\Users\\alex\\Pictures\\Camera1\\20171015_175149.jpg");
+        uploadElement.sendKeys(filePhath);
 
     }
 
 
     public void doubleClick() {
+
         Actions actions = new Actions(driver);
         actions.doubleClick();
     }

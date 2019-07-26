@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96508e5c-a7f4-4904-aa3f-7b33777dbe56" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/trello-test/src/test/java/com/telRan/model/tests/BoardCreationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/trello-test/src/test/java/com/telRan/model/tests/BoardCreationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trello-test/out/test/classes/com/telRan/model/fw/Teams.class" beforeDir="false" afterPath="$PROJECT_DIR$/trello-test/out/test/classes/com/telRan/model/fw/Teams.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trello-test/src/test/java/com/telRan/model/fw/Teams.java" beforeDir="false" afterPath="$PROJECT_DIR$/trello-test/src/test/java/com/telRan/model/fw/Teams.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/trello-test/src/test/java/com/telRan/model/tests/TeamCreationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/trello-test/src/test/java/com/telRan/model/tests/TeamCreationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trello-test/src/test/java/com/telRan/model/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/trello-test/src/test/java/com/telRan/model/tests/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trello-test/src/test/resources/Team_positive.csv" beforeDir="false" afterPath="$PROJECT_DIR$/trello-test/src/test/resources/Team_positive.csv" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/Selenium-tsts/.gradle/" />
@@ -67,7 +67,7 @@
         <entry file="file://$PROJECT_DIR$/trello-test/src/test/resources/Team_positive.csv">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -76,7 +76,7 @@
         <entry file="file://$PROJECT_DIR$/trello-test/src/test/resources/Team_allpairs.csv">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
-              <caret line="1" column="30" lean-forward="true" selection-start-line="1" selection-end-line="1" selection-end-column="30" />
+              <caret line="1" column="30" selection-start-line="1" selection-end-line="1" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -99,20 +99,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/trello-test/src/test/java/com/telRan/model/tests/TeamCreationTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
-              <caret line="46" column="37" selection-start-line="46" selection-start-column="37" selection-end-line="46" selection-end-column="37" />
+            <state relative-caret-position="185">
+              <caret line="37" selection-start-line="37" selection-end-line="37" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/trello-test/src/test/java/com/telRan/model/fw/Teams.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
+            <state relative-caret-position="162">
+              <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
               <folding>
                 <element signature="e#1336#1337#0" expanded="true" />
                 <element signature="e#1403#1404#0" expanded="true" />
@@ -229,12 +229,12 @@
         <option value="$PROJECT_DIR$/trello-test/build.gradle" />
         <option value="$PROJECT_DIR$/trello-test/src/test/java/com/telRan/model/model/Team.java" />
         <option value="$PROJECT_DIR$/trello-test/src/test/java/com/telRan/model/tests/LoginTrelloTest.java" />
-        <option value="$PROJECT_DIR$/trello-test/src/test/java/com/telRan/model/fw/Teams.java" />
         <option value="$PROJECT_DIR$/trello-test/src/test/java/com/telRan/model/tests/TestBase.java" />
         <option value="$PROJECT_DIR$/trello-test/src/test/java/com/telRan/model/tests/BoardCreationTest.java" />
         <option value="$PROJECT_DIR$/trello-test/src/test/resources/Team_positive.csv" />
         <option value="$PROJECT_DIR$/trello-test/src/test/resources/Team_allpairs.csv" />
         <option value="$PROJECT_DIR$/trello-test/src/test/java/com/telRan/model/tests/TeamCreationTest.java" />
+        <option value="$PROJECT_DIR$/trello-test/src/test/java/com/telRan/model/fw/Teams.java" />
       </list>
     </option>
   </component>
@@ -421,28 +421,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.TeamCreationTest.createTeamDataProvider">
+  <component name="RunManager" selected="TestNG.TeamCreationTest.changePhoto">
     <configuration name="C:/Users/alex/Documents/GitHub/anerQa20/trello-test/src/test/resources/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="trello-test_test" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/trello-test/src/test/resources/testng.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoginTrelloTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="trello-test_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.telRan.model.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.telRan.model.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.telRan.model.tests.LoginTrelloTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -460,6 +443,24 @@
       <option name="PACKAGE_NAME" value="com.telRan.model.tests" />
       <option name="MAIN_CLASS_NAME" value="com.telRan.model.tests.TeamCreationTest" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TeamCreationTest.changePhoto" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="trello-test_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.telRan.model.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.telRan.model.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.telRan.model.tests.TeamCreationTest" />
+      <option name="METHOD_NAME" value="changePhoto" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -520,11 +521,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TeamCreationTest.changePhoto" />
         <item itemvalue="TestNG.TeamCreationTest.createTeamDataProvider" />
         <item itemvalue="TestNG.TeamCreationTest" />
         <item itemvalue="TestNG.TeamCreationTest.createTeam" />
         <item itemvalue="TestNG.C:/Users/alex/Documents/GitHub/anerQa20/trello-test/src/test/resources/testng.xml" />
-        <item itemvalue="TestNG.LoginTrelloTest" />
       </list>
     </recent_temporary>
   </component>
@@ -542,12 +543,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TeamCreationTest - 2019.07.26 at 21h 11m 36s.xml">
-      <configuration name="TeamCreationTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TeamCreationTest - 2019.07.26 at 21h 22m 47s.xml">
-      <configuration name="TeamCreationTest" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="TeamCreationTest_createTeamDataProvider - 2019.07.26 at 22h 02m 16s.xml">
       <configuration name="TeamCreationTest.createTeamDataProvider" configurationId="TestNG" />
     </history-entry>
@@ -572,12 +567,18 @@
     <history-entry file="TeamCreationTest_createTeamDataProvider - 2019.07.26 at 23h 50m 45s.xml">
       <configuration name="TeamCreationTest.createTeamDataProvider" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="TeamCreationTest_changePhoto - 2019.07.27 at 00h 08m 37s.xml">
+      <configuration name="TeamCreationTest.changePhoto" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TeamCreationTest_changePhoto - 2019.07.27 at 00h 11m 27s.xml">
+      <configuration name="TeamCreationTest.changePhoto" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49763033" visible="true" weight="0.22080536" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49763033" visible="true" weight="0.22080536" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -587,7 +588,7 @@
       <window_info anchor="bottom" id="Problems" order="0" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.33821377" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.44216692" />
+      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.44216692" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.3974563" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -791,7 +792,7 @@
     <entry file="file://$PROJECT_DIR$/trello-test/src/test/resources/Team_positive.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
@@ -811,7 +812,7 @@
     <entry file="file://$PROJECT_DIR$/trello-test/src/test/resources/Team_allpairs.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
-          <caret line="1" column="30" lean-forward="true" selection-start-line="1" selection-end-line="1" selection-end-column="30" />
+          <caret line="1" column="30" selection-start-line="1" selection-end-line="1" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -829,17 +830,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/trello-test/src/test/java/com/telRan/model/fw/Teams.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
-          <folding>
-            <element signature="e#1336#1337#0" expanded="true" />
-            <element signature="e#1403#1404#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/trello-test/src/test/java/com/telRan/model/model/Team.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="158">
@@ -849,8 +839,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/trello-test/src/test/java/com/telRan/model/tests/TeamCreationTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="46" column="37" selection-start-line="46" selection-start-column="37" selection-end-line="46" selection-end-column="37" />
+        <state relative-caret-position="185">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trello-test/src/test/java/com/telRan/model/fw/Teams.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
+          <folding>
+            <element signature="e#1336#1337#0" expanded="true" />
+            <element signature="e#1403#1404#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
