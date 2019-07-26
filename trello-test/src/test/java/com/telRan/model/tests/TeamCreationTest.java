@@ -16,10 +16,11 @@ public class TeamCreationTest extends TestBase {
 List<Object[]> list = new ArrayList<>();
 BufferedReader reader =
         new BufferedReader(
-                new FileReader(new File("src/test/resources/Team_positive.csv")));
+                new FileReader(new File("src/test/resources/Team_allpairs.csv")));
+       // C:\Users\alex\Documents\GitHub\anerQa20\trello-test\src\test\resources\Team_positive.csv
         String line = reader.readLine();
 
-        while (line!=null){
+        while (line !=null){
             String[] split = line.split(",");
             list.add(new Object[]{new Team()
                     .withTeamName(split[0])
@@ -28,30 +29,29 @@ BufferedReader reader =
         }
         return list.iterator();
     }
-    @Test
-    public void changePhoto() throws InterruptedException {
-        app.getTeams().changeOfPhoto();
-        app.getTeams().attachPhoto();
-        app.getTeams().choosePhoto();
-        app.getTeams().doubleClick();
-    }
+//    @Test
+//    public void changePhoto() throws InterruptedException {
+//        app.getTeams().changeOfPhoto();
+//        app.getTeams().attachPhoto();
+//        app.getTeams().choosePhoto();
+//        app.getTeams().doubleClick();
+//    }
 
     @Test(dataProvider = "teamsPositive")
     public void createTeamDataProvider(Team team) throws InterruptedException {
 
-        int before= app.getTeams().getTeamsCount();
+        //int before= app.getTeams().getTeamsCount();
         app.getBoard().clickOnPlusButtonOnHeader();
         app.getTeams().selectTeamGroup();
         app.getTeams().fillTeamForm(team);
-
         app.getSession().pause(7000);
         app.getTeams().submitCreateTeam();
         app.getBoard().returnToHomePage();
         app.getBoard().returnToHomePage();
 
 
-        int after = app.getTeams().getTeamsCount();
-        Assert.assertEquals(after,before+1);
+//        int after = app.getTeams().getTeamsCount();
+//        Assert.assertEquals(after,before+1);
 
     }
 

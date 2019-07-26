@@ -20,7 +20,7 @@ public class BoardCreationTest extends TestBase {
         app.getBoard().typeBoardName("qa20"+System.currentTimeMillis());
         app.getBoard().submitCreateBoard();
         app.getSession().pause(10000);
-        app.getBoard().returnToHomePage();
+        //app.getBoard().returnToHomePage();
         app.getBoard().returnToHomePage();
 
         int after= app.getBoard().getPersonalBoardCount();
