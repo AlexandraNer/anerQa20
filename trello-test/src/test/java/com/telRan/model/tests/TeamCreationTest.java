@@ -29,18 +29,12 @@ BufferedReader reader =
         }
         return list.iterator();
     }
-  @Test
-  public void changePhoto() throws InterruptedException {
-       app.getTeams().changeOfPhoto();
-       app.getTeams().attachPhoto();
-    app.getTeams().choosePhoto();
-    app.getTeams().doubleClick();
-  }
+
 
     @Test(dataProvider = "teamsPositive")
     public void createTeamDataProvider(Team team) throws InterruptedException {
 
-        //int before= app.getTeams().getTeamsCount();
+       int before= app.getTeams().getTeamsCount();
         app.getBoard().clickOnPlusButtonOnHeader();
         app.getTeams().selectTeamGroup();
         app.getTeams().fillTeamForm(team);
@@ -50,8 +44,8 @@ BufferedReader reader =
         app.getBoard().returnToHomePage();
 
 
-//        int after = app.getTeams().getTeamsCount();
-//        Assert.assertEquals(after,before+1);
+        int after = app.getTeams().getTeamsCount();
+        Assert.assertEquals(after,before+1);
 
     }
 

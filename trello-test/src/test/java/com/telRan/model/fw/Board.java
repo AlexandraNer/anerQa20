@@ -64,4 +64,11 @@ public class Board extends HelperBase{
         privateBoardList.findElement(By.xpath(".//li")).click();
     }
 
+    public void openDropdownList() {
+        click(By.cssSelector("[class='W6rMLOx8U0MrPx']"));
+    }
+
+    public void searchPrivateBoard() {
+        click(By.xpath("//button[@class='_2jR0BZMM5cBReR']"));
+    }
 }

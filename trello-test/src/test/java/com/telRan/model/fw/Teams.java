@@ -12,13 +12,19 @@ public class Teams extends HelperBase{
         super(driver);
     }
     public void selectTeamGroup() {
-        click(By.xpath(" //button[@data-test-id='header-create-team-button']"));
+        click(By.xpath("//button[@class='_2jR0BZMM5cBReR']/../../li[2]"));
         //button[@data-test-id='header-create-team-button']
     }
     public void typeTeamName(String teamName) {
-        click(By.cssSelector("[data-test-id='header-create-team-name-input']"));
-        driver.findElement(By.cssSelector("[data-test-id='header-create-team-name-input']")).clear();
-        driver.findElement(By.cssSelector("[data-test-id='header-create-team-name-input']")).sendKeys(teamName);
+        type(By.cssSelector("[data-test-id='header-create-team-name-input']"),teamName);
+    }
+    public void fillTeamForm(Team team) {
+        typeTeamName(team.getTeamName());
+        typeTeamDescription(team.getTeamDescription());
+    }
+    public void typeTeamDescription(String teamDescription) {
+        type(By.cssSelector("[name='desc']"),teamDescription);
+
     }
     public int getTeamsCount() {
         return driver.findElements(By.xpath("//div[@class='boards-page-top-banner']")).size();
@@ -28,14 +34,7 @@ public class Teams extends HelperBase{
         click(By.xpath("//button[@data-test-id='header-create-team-submit-button']"));
     }
 
-    public void fillTeamForm(Team team) {
-        typeTeamName(team.getTeamName());
-        typeTeamDescription(team.getTeamDescription());
-    }
 
-    public void typeTeamDescription(String teamDescription) {
-        type(By.cssSelector("[name=desc]"),teamDescription);
-    }
 
     public void chooseTeamForDelete() {
         click(By.xpath("//body//a[3]"));
