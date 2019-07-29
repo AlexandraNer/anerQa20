@@ -46,9 +46,8 @@ BufferedReader reader =
         app.getTeams().fillTeamForm(team);
         app.getSession().pause(7000);
         app.getTeams().submitCreateTeam();
+        app.getSession().pause(3000);
         app.getBoard().returnToHomePage();
-        app.getBoard().returnToHomePage();
-
 
         int after = app.getTeams().getTeamsCount();
         Assert.assertEquals(after,before+1);

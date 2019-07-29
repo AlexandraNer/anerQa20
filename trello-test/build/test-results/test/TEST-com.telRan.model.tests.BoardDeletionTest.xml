@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.telRan.model.tests.BoardDeletionTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-07-28T19:06:08" hostname="DESKTOP-HS9A9T3" time="15.9">
+<testsuite name="com.telRan.model.tests.BoardDeletionTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-07-29T11:09:05" hostname="DESKTOP-HS9A9T3" time="19.578">
   <properties/>
-  <testcase name="deletePrivateBoard" classname="com.telRan.model.tests.BoardDeletionTest" time="15.9"/>
-  <system-out><![CDATA[qa201563822193152
+  <testcase name="deletePrivateBoard" classname="com.telRan.model.tests.BoardDeletionTest" time="19.578"/>
+  <system-out><![CDATA[qa201563826228608
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
