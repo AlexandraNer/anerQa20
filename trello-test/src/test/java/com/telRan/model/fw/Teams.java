@@ -48,31 +48,5 @@ public class Teams extends HelperBase{
         click(By.xpath("//input[@class='js-confirm full negate']"));
     }
     //---------------
-    public void changeOfPhoto() throws InterruptedException {
 
-        click(By.xpath("//button[@data-test-id='header-member-menu-button']"));
-        click(By.xpath("//a[@data-test-id='header-member-menu-profile']"));
-        pause(3000);
-    }
-    public void attachPhoto() throws InterruptedException {
-        Actions actions = new Actions(driver);
-        WebElement photo = driver.findElement(By.xpath("//div[@class='rsiNque2CCqtPE']"));
-        pause(3000);
-        actions.moveToElement(photo).click().perform();
-    }
-    public void choosePhoto() throws InterruptedException {
-String filePhath = "C:/Users/alex/Pictures/Camera1/20171015_175149.jpg";
-        WebElement uploadElement = driver.findElement(By.cssSelector("[name='attachment']"));
-        uploadElement.click();
-        pause(3000);
-        uploadElement.sendKeys(filePhath);
-
-    }
-
-
-    public void doubleClick() {
-
-        Actions actions = new Actions(driver);
-        actions.doubleClick();
-    }
 }

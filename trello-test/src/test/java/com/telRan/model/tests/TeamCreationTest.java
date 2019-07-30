@@ -29,13 +29,6 @@ BufferedReader reader =
         }
         return list.iterator();
     }
-//  @Test
-//  public void changePhoto() throws InterruptedException {
-//       app.getTeams().changeOfPhoto();
-//       app.getTeams().attachPhoto();
-//    app.getTeams().choosePhoto();
-//    app.getTeams().doubleClick();
-//  }
 
     @Test(dataProvider = "teamsPositive")
     public void createTeamDataProvider(Team team) throws InterruptedException {

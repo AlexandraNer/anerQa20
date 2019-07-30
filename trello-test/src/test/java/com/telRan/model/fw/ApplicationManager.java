@@ -15,6 +15,7 @@ public class ApplicationManager {
 
     private Board board ;
     SessionHelper session;
+    UserHelper user;
     Teams teams;
     WebDriver driver;
     String browser;
@@ -39,6 +40,7 @@ public class ApplicationManager {
         openSite("https://trello.com/");
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         session=new SessionHelper(driver);
+        user = new UserHelper(driver);
         session.login(new User().withEmail("narishka@walla.com").withPassword("202010Zxc"));
         board = new Board(driver);
         teams = new Teams(driver);
@@ -66,5 +68,7 @@ public class ApplicationManager {
         return teams;
     }
 
-
+    public UserHelper getUser() {
+        return user;
+    }
 }
