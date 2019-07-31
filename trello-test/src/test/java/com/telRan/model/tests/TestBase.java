@@ -12,7 +12,7 @@ import org.testng.annotations.BeforeSuite;
 
 public class TestBase {
 
-    static ApplicationManager app = new ApplicationManager(System.getProperty("browser",BrowserType.CHROME));
+    static ApplicationManager app = new ApplicationManager(System.getProperty("browser",BrowserType.FIREFOX));
 
     Logger logger = LoggerFactory.getLogger(TestBase.class);
     @BeforeSuite
