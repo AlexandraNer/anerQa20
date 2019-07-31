@@ -10,6 +10,7 @@ public class EditUserDataTests extends TestBase{
     @Test
     public void changeAvatarTest() throws InterruptedException {
         app.getUser().clickOnAvatar();
+        app.getSession().pause(3000);
         app.getUser().enterToProfile();
         app.getUser().changeAvatar();
     }

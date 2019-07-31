@@ -13,8 +13,9 @@ public class BoardCreationTest extends TestBase {
 
       int before = app.getBoard().getPersonalBoardCount();
 
-        app.getBoard().pause(3000);
+
         app.getBoard().clickOnPlusButtonOnHeader();
+      app.getBoard().pause(3000);
         app.getBoard().cteateBoardFromDropDown();
         app.getSession().pause(7000);
         app.getBoard().typeBoardName("qa20"+System.currentTimeMillis());

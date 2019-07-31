@@ -29,6 +29,7 @@ public class Board extends HelperBase{
 
     public void clickOnPlusButtonOnHeader() {
         click(By.name("add"));
+
     }
     public void returnToHomePage() {
         click(By.cssSelector("[href='/']"));
