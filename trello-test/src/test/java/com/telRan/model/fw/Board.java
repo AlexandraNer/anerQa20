@@ -72,4 +72,12 @@ public class Board extends HelperBase{
     public void searchPrivateBoard() {
         click(By.xpath("//button[@class='_2jR0BZMM5cBReR']"));
     }
+//==========================================================================================================
+    public String getFirstPersonalBoardName() {
+        return driver.findElement(By.xpath("//span[@class='icon-lg icon-member']/../../..//li")).getText();
+    }
+
+    public String getBoardName() {
+        return driver.findElement(By.cssSelector(".js-rename-board")).getText();
+    }
 }

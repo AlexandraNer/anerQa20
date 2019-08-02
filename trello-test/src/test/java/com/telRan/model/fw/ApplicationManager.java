@@ -33,7 +33,8 @@ public class ApplicationManager {
         public void onException(Throwable throwable, WebDriver driver) {
             System.out.println(throwable);
             File tmp = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-            File screenshot = new File ("screenshot -" +System.currentTimeMillis()+".png");
+            File screenshot = new File ("src/test/resources/screenshorts/screenshot -" +System.currentTimeMillis()+".png");
+           // C:\Users\alex\Documents\GitHub\anerQa20\trello-test\src\test\resources\screenshorts
             try {
                 Files.copy(tmp,screenshot);
             } catch (IOException e) {
