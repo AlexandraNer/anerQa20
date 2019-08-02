@@ -3,9 +3,13 @@ package com.telRan.model.fw;
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.ui.ExpectedCondition;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class HelperBase {
     WebDriver driver;
+    WebDriverWait wait;
 
     public HelperBase(WebDriver driver) {
         this.driver = driver;
@@ -26,6 +30,11 @@ public class HelperBase {
     public void pause(int millis) throws InterruptedException {
         Thread.sleep(millis);
     }
+
+    public void waitForElementAndClick(Long timeout,By locator) {
+        new WebDriverWait(driver,timeout).until(ExpectedConditions.presenceOfElementLocated(locator));
+    }
+
     public boolean isElrmrntPresent(By locator){
         try {
             driver.findElement(locator);

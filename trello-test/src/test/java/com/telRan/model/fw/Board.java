@@ -3,6 +3,10 @@ package com.telRan.model.fw;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+import java.util.concurrent.TimeUnit;
 
 public class Board extends HelperBase{
 
@@ -20,6 +24,7 @@ public class Board extends HelperBase{
     }
 
     public int getPersonalBoardCount() {
+        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         return driver.findElements(By.xpath("//span[@class='icon-lg icon-member']/../../..//li")).size()-1;
     }
 
@@ -42,7 +47,8 @@ public class Board extends HelperBase{
     }
 
     public void clickDeleteBoard() {
-        click(By.xpath("//a[@class='quiet js-delete']"));
+        new WebDriverWait(driver,10).until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@class='quiet js-delete']")));
+        //click(By.xpath("//a[@class='quiet js-delete']"));
     }
 
     public void closeBoard() {
@@ -50,10 +56,11 @@ public class Board extends HelperBase{
     }
     public void clickOnButtonCloseBoard() {
         click(By.xpath("//a[@class='board-menu-navigation-item-link js-close-board']"));
-        //board-menu-navigation-item-link js-close-board
+
     }
     public void clickOnButtonMore() {
-        click(By.xpath("//a[@class='board-menu-navigation-item-link js-open-more']"));
+        waitForElementAndClick((long)5,By.xpath("//a[@class='board-menu-navigation-item-link js-open-more']"));
+        //click(By.xpath("//a[@class='board-menu-navigation-item-link js-open-more']"));
     }
     public void openMenuOptions() {
         click(By.xpath("//a[@class='board-menu-navigation-item-link js-open-card-filter']"));
@@ -79,5 +86,10 @@ public class Board extends HelperBase{
 
     public String getBoardName() {
         return driver.findElement(By.cssSelector(".js-rename-board")).getText();
+    }
+
+    public void changeBoardName(String newName) {
+        type(By.cssSelector(".board-header-btn-name"),newName);
+        //type(By.cssSelector("input.board-name-input js-board-name-input"),newName);
     }
 }
