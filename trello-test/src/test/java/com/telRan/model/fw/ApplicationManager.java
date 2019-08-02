@@ -1,9 +1,8 @@
 package com.telRan.model.fw;
 
+import com.google.common.io.Files;
 import com.telRan.model.model.User;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -12,6 +11,8 @@ import org.openqa.selenium.remote.BrowserType;
 import org.openqa.selenium.support.events.AbstractWebDriverEventListener;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
 
+import java.io.File;
+import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
 public class ApplicationManager {
@@ -31,6 +32,14 @@ public class ApplicationManager {
         @Override
         public void onException(Throwable throwable, WebDriver driver) {
             System.out.println(throwable);
+            File tmp = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+            File screenshot = new File ("screenshot -" +System.currentTimeMillis()+".png");
+            try {
+                Files.copy(tmp,screenshot);
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+            System.out.println("!!!Created Screenshot" +screenshot);
         }
         @Override
         public void beforeFindBy(By by, WebElement element, WebDriver driver) {
