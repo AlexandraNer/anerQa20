@@ -15,6 +15,7 @@ public class BoardModificationTest extends TestBase {
         Assert.assertEquals(boardName,nameOnHomePage);
         app.getSession().pause(3000);
         app.getBoard().changeBoardName("Changes" +System.currentTimeMillis()+ Keys.ENTER);
+        //app.getBoard().changeBoardName();
 
         //Assert.assertTrue();
 

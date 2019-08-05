@@ -89,12 +89,10 @@ public class Board extends HelperBase{
     }
 
     public void changeBoardName(String newName) {
-        //click(By.xpath("//div[@href='#']"));
-        //type(By.xpath("//div[@href='#']"),newName);
-        //type(By.cssSelector("span.js-board-editing-target.board-header-btn-text"),newName);
-        //type(By.cssSelector(".js-board-editing-target.board-header-btn-text"),newName);
-        waitForElementAndClick((long)3,(By.cssSelector(".js-board-editing-target.board-header-btn-text")));
-        type(By.cssSelector(".board-header-btn.board-header-btn-name.inline-rename-board.js-rename-board"),newName);
+        click(By.cssSelector(".js-board-editing-target"));
+        driver.findElement(By.cssSelector("input.board-name-input")).sendKeys("newName");
+//        waitForElementAndClick((long)3,(By.cssSelector(".js-board-editing-target.board-header-btn-text")));
+
 
     }
 }
