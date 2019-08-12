@@ -10,30 +10,33 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 
 import java.lang.reflect.Method;
+import java.net.MalformedURLException;
 
 public class TestBase {
+    static ApplicationManager app =
+            new ApplicationManager(System.getProperty("browser", BrowserType.CHROME));
 
-    static ApplicationManager app = new ApplicationManager(System.getProperty("browser",BrowserType.FIREFOX));
+    Logger logger =
+            LoggerFactory.getLogger(TestBase.class);
 
-    Logger logger = LoggerFactory.getLogger(TestBase.class);
     @BeforeSuite
-    public void setUp() throws InterruptedException {
+    public void setUp() throws InterruptedException, MalformedURLException {
         app.init();
     }
 
     @AfterSuite(alwaysRun = true)
-        public void tearDown(){
-        app.stop();
+    public void tearDown() {
+
+        //app.stop();
     }
 
     @BeforeMethod
-    public void startLogger(Method m ){
-logger.info("Start test" + m.getName());
-
+    public void startLogger(Method m) {
+        logger.info("Start test  " + m.getName());
     }
-    @AfterMethod(alwaysRun = true)
-    public void stopLogger(Method m){
-        logger.info("Stop test" + m.getName());
 
+    @AfterMethod(alwaysRun = true)
+    public void stopLogger(Method m) {
+        logger.info("Stop test  " + m.getName());
     }
 }

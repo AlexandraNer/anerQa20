@@ -1,6 +1,4 @@
 package com.telran.ssuper.fw;
-
-import com.telRan.model.model.User;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
@@ -13,17 +11,17 @@ public class SessionHelper extends HelperBase{
     public void confirmLogin()
     {click(By.cssSelector("#login[type=submit]"));}
 
-    public void fillLoginForm(User user) {
-       type(By.id("user"), user.getEmail());
-        type(By.id("password"), user.getPassword());
+    public void fillLoginForm(String email,String pasword) {
+       type(By.id("user"), email);
+        type(By.id("password"),pasword);
     }
 
     public void pause(int millis) throws InterruptedException {
           Thread.sleep(millis);
         }
-    public void login (User user) throws InterruptedException {
+    public void login (String email,String pasword) throws InterruptedException {
         initLogin();
-        fillLoginForm(user);
+        fillLoginForm(email,pasword);
         pause(3000);
         confirmLogin();
         pause(10000);
