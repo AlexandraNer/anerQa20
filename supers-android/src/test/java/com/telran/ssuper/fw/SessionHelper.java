@@ -1,27 +1,28 @@
 package com.telran.ssuper.fw;
+import io.appium.java_client.AppiumDriver;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 public class SessionHelper extends HelperBase{
 
-    public SessionHelper(WebDriver driver) {
+    public SessionHelper(AppiumDriver driver) {
 
         super(driver);
     }
     public void confirmLogin()
-    {click(By.cssSelector("#login[type=submit]"));}
+    {click(By.id("login_btn"));}
 
     public void fillLoginForm(String email,String pasword) {
-       type(By.id("user"), email);
-        type(By.id("password"),pasword);
+       type(By.id("log_email_input"), email);
+        type(By.id("log_password_input"),pasword);
     }
 
     public void pause(int millis) throws InterruptedException {
           Thread.sleep(millis);
         }
-    public void login (String email,String pasword) throws InterruptedException {
+    public void login (String email,String password) throws InterruptedException {
         initLogin();
-        fillLoginForm(email,pasword);
+        fillLoginForm(email,password);
         pause(3000);
         confirmLogin();
         pause(10000);

@@ -20,39 +20,39 @@ public class ApplicationManager {
 
     SessionHelper session;
     AppiumDriver driver;
-    String browser;
+    //String browser;
 
 
-    public static class MyListener extends AbstractWebDriverEventListener {
-        @Override
-        public void afterFindBy(By by, WebElement element, WebDriver driver) {
-            System.out.println(by + "found");
-        }
+//    public static class MyListener extends AbstractWebDriverEventListener {
+//        @Override
+//        public void afterFindBy(By by, WebElement element, WebDriver driver) {
+//            System.out.println(by + "found");
+//        }
+//
+//        @Override
+//        public void onException(Throwable throwable, WebDriver driver) {
+//            System.out.println(throwable);
+//            File tmp = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+//            File screenshot = new File("src/test/resources/screenshorts/screenshot -" + System.currentTimeMillis() + ".png");
+//            try {
+//                Files.copy(tmp, screenshot);
+//            } catch (IOException e) {
+//                e.printStackTrace();
+//            }
+//            System.out.println("!!!Created Screenshot" + screenshot);
+//        }
 
-        @Override
-        public void onException(Throwable throwable, WebDriver driver) {
-            System.out.println(throwable);
-            File tmp = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-            File screenshot = new File("src/test/resources/screenshorts/screenshot -" + System.currentTimeMillis() + ".png");
-            try {
-                Files.copy(tmp, screenshot);
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
-            System.out.println("!!!Created Screenshot" + screenshot);
-        }
+//        @Override
+//        public void beforeFindBy(By by, WebElement element, WebDriver driver) {
+//            System.out.println("Start search" + by);
+//        }
+//    }
 
-        @Override
-        public void beforeFindBy(By by, WebElement element, WebDriver driver) {
-            System.out.println("Start search" + by);
-        }
-    }
+//    public ApplicationManager(String browser) {
+//        this.browser = browser;
+//    }
 
-    public ApplicationManager(String browser) {
-        this.browser = browser;
-    }
-
-    public void init() throws InterruptedException, MalformedURLException {
+    public void init() throws MalformedURLException {
 
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability("platformName", "Android");
@@ -61,16 +61,15 @@ public class ApplicationManager {
         capabilities.setCapability("automationName", "Appium");
         capabilities.setCapability("appPackage", "com.example.svetlana.scheduler");
         capabilities.setCapability("appActivity", ".presentation.splashScreen.SplashScreenActivity");
-        capabilities.setCapability("app", "C:/Users/alex/Documents/GitHub/anerQa20/supers-android/src/test/resources/v.0.0.2.apk ");
+        capabilities.setCapability("app", "C:/Users/alex/Documents/GitHub/anerQa20/supers-android/src/test/resources/v.0.0.2New.apk");
         driver = new AndroidDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
-
 
         session = new SessionHelper(driver);
         String deviceTime = driver.getDeviceTime();
         System.out.println(deviceTime);
-        driver.launchApp();
-        List<LogEntry> logcat = driver.manage().logs().get("logcat").getAll();
-        System.out.println(logcat);
+//        driver.launchApp();
+//        List<LogEntry> logcat = driver.manage().logs().get("logcat").getAll();
+//        System.out.println(logcat);
 
         //   session.login("elena.telran@yahoo.com", "12345.com");
 //        if (browser.equals(BrowserType.FIREFOX)) {

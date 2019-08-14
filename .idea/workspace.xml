@@ -2,11 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96508e5c-a7f4-4904-aa3f-7b33777dbe56" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/supers-android/src/test/java/com/telran/ssuper/fw/ApplicationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/supers-android/src/test/java/com/telran/ssuper/fw/ApplicationManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/supers-android/src/test/java/com/telran/ssuper/fw/HelperBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/supers-android/src/test/java/com/telran/ssuper/fw/HelperBase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/supers-android/src/test/java/com/telran/ssuper/fw/SessionHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/supers-android/src/test/java/com/telran/ssuper/fw/SessionHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/supers-android/src/test/java/com/telran/ssuper/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/supers-android/src/test/java/com/telran/ssuper/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/supers-android/src/test/java/com/telran/ssuper/tests/OpenAppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/supers-android/src/test/java/com/telran/ssuper/tests/OpenAppTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/supers-android/src/test/java/com/telran/ssuper/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/supers-android/src/test/java/com/telran/ssuper/tests/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trello-test/out/test/resources/Team_allpairs.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trello-test/out/test/resources/Team_positive.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trello-test/out/test/resources/cat_small1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trello-test/out/test/resources/logback.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trello-test/out/test/resources/screenshorts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trello-test/out/test/resources/testng.xml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/Selenium-tsts/.gradle/" />
@@ -73,8 +79,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/supers-android/src/test/java/com/telran/ssuper/fw/SessionHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            <state relative-caret-position="197">
+              <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -86,16 +92,7 @@
         <entry file="file://$PROJECT_DIR$/supers-android/src/test/java/com/telran/ssuper/model/User.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="391">
-              <caret line="23" column="7" lean-forward="true" selection-start-line="3" selection-start-column="5" selection-end-line="23" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/trello-test/src/test/resources/logback.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="54" selection-start-line="10" selection-start-column="54" selection-end-line="10" selection-end-column="54" />
+              <caret line="23" column="7" selection-start-line="3" selection-start-column="5" selection-end-line="23" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -108,8 +105,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/supers-android/src/test/java/com/telran/ssuper/fw/HelperBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            <state relative-caret-position="120">
+              <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+              <folding>
+                <element signature="e#562#563#0" expanded="true" />
+                <element signature="e#584#585#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -123,17 +124,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/supers-android/src/test/java/com/telran/ssuper/fw/ApplicationManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="71" column="10" selection-start-line="71" selection-start-column="10" selection-end-line="71" selection-end-column="10" />
+            <state relative-caret-position="147">
+              <caret line="65" selection-start-line="65" selection-end-line="65" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#3214#3215#0" expanded="true" />
-                <element signature="e#3261#3262#0" expanded="true" />
-                <element signature="e#3228#3229#0" expanded="true" />
-                <element signature="e#3258#3259#0" expanded="true" />
+                <element signature="e#3849#3850#0" expanded="true" />
+                <element signature="e#3900#3901#0" expanded="true" />
+                <element signature="e#4059#4060#0" expanded="true" />
+                <element signature="e#4089#4090#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/supers-android/src/test/java/com/telran/ssuper/tests/LoginRegistrationTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -142,11 +155,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/supers-android/src/test/java/com/telran/ssuper/tests/TestBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="47" selection-start-line="2" selection-start-column="47" selection-end-line="2" selection-end-column="47" />
+            <state relative-caret-position="362">
+              <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
               <folding>
-                <element signature="e#981#982#0" expanded="true" />
-                <element signature="e#1112#1113#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#956#957#0" expanded="true" />
+                <element signature="e#1087#1088#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -155,8 +169,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/supers-android/src/test/java/com/telran/ssuper/tests/OpenAppTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="153">
+              <caret line="9" selection-start-line="9" selection-end-line="10" />
               <folding>
                 <element signature="e#198#199#0" expanded="true" />
                 <element signature="e#254#255#0" expanded="true" />
@@ -189,8 +203,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/trello-test/src/test/java/com/telRan/model/User.java" />
-        <option value="$PROJECT_DIR$/trello-test/src/test/java/com/telRan/tests/LogginTrelloTest.java" />
         <option value="$PROJECT_DIR$/trello-test/src/test/java/com/telRan/fw/SessionHelper.java" />
         <option value="$PROJECT_DIR$/trello-test/src/test/java/fw/HelperHeader.java" />
         <option value="$PROJECT_DIR$/trello-test/src/test/java/model/Team.java" />
@@ -236,10 +248,12 @@
         <option value="$PROJECT_DIR$/supers-android/src/test/java/com/telran/ssuper/tests/EditUserDataTests.java" />
         <option value="$PROJECT_DIR$/supers-android/build.gradle" />
         <option value="$PROJECT_DIR$/supers-android/src/test/java/com/telran/ssuper/model/User.java" />
-        <option value="$PROJECT_DIR$/supers-android/src/test/java/com/telran/ssuper/fw/SessionHelper.java" />
         <option value="$PROJECT_DIR$/supers-android/src/test/java/com/telran/ssuper/tests/OpenAppTest.java" />
-        <option value="$PROJECT_DIR$/supers-android/src/test/java/com/telran/ssuper/tests/TestBase.java" />
         <option value="$PROJECT_DIR$/supers-android/src/test/java/com/telran/ssuper/fw/ApplicationManager.java" />
+        <option value="$PROJECT_DIR$/supers-android/src/test/java/com/telran/ssuper/tests/TestBase.java" />
+        <option value="$PROJECT_DIR$/supers-android/src/test/java/com/telran/ssuper/fw/HelperBase.java" />
+        <option value="$PROJECT_DIR$/supers-android/src/test/java/com/telran/ssuper/fw/SessionHelper.java" />
+        <option value="$PROJECT_DIR$/supers-android/src/test/java/com/telran/ssuper/tests/LoginRegistrationTest.java" />
       </list>
     </option>
   </component>
@@ -249,10 +263,10 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="242" />
-    <option name="y" value="47" />
-    <option name="width" value="1385" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="202" />
+    <option name="y" value="12" />
+    <option name="width" value="1668" />
     <option name="height" value="980" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -350,8 +364,8 @@
     <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\alex\Documents\GitHub\anerQa20\trello-test\src\test\resources" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\alex\Documents\GitHub\anerQa20\supers-android\src\test\resources" />
@@ -361,8 +375,8 @@
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\alex\Documents\GitHub\anerQa20\trello-test\src\test\resources" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -382,7 +396,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.BoardModificationTest">
+  <component name="RunManager" selected="TestNG.LoginRegistrationTest.testLogin">
     <configuration name="BoardDeletionTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="trello-test_test" />
       <extension name="coverage">
@@ -394,24 +408,6 @@
       <option name="PACKAGE_NAME" value="com.telRan.model.tests" />
       <option name="MAIN_CLASS_NAME" value="com.telRan.model.tests.BoardDeletionTest" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BoardDeletionTest.deletePrivateBoard" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="trello-test_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.telRan.model.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.telRan.model.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.telRan.model.tests.BoardDeletionTest" />
-      <option name="METHOD_NAME" value="deletePrivateBoard" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -453,6 +449,42 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LoginRegistrationTest.testLogin" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="supers-android_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.telran.ssuper.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.telran.ssuper.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.telran.ssuper.tests.LoginRegistrationTest" />
+      <option name="METHOD_NAME" value="testLogin" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OpenAppTest.testOpenApp" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="supers-android_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.telran.ssuper.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.telran.ssuper.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.telran.ssuper.tests.OpenAppTest" />
+      <option name="METHOD_NAME" value="testOpenApp" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="com.TelRan.qa20.fw.tests" type="TestNG" nameIsGenerated="true">
       <module name="trello-test_test" />
       <extension name="coverage">
@@ -469,29 +501,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.telRan.model.tests" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="trello-test_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.telRan.model.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.telRan.model.tests" />
-      <option name="TEST_OBJECT" value="PACKAGE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.LoginRegistrationTest.testLogin" />
+        <item itemvalue="TestNG.OpenAppTest.testOpenApp" />
         <item itemvalue="TestNG.BoardModificationTest" />
         <item itemvalue="TestNG.BoardModificationTest.changeBoardNameTest" />
         <item itemvalue="TestNG.BoardDeletionTest" />
-        <item itemvalue="TestNG.BoardDeletionTest.deletePrivateBoard" />
-        <item itemvalue="TestNG.com.telRan.model.tests" />
       </list>
     </recent_temporary>
   </component>
@@ -509,35 +525,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BoardModificationTest - 2019.08.02 at 20h 51m 03s.xml">
-      <configuration name="BoardModificationTest" configurationId="TestNG" />
+    <history-entry file="OpenAppTest_testOpenApp - 2019.08.13 at 19h 25m 32s.xml">
+      <configuration name="OpenAppTest.testOpenApp" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="BoardModificationTest - 2019.08.02 at 20h 53m 18s.xml">
-      <configuration name="BoardModificationTest" configurationId="TestNG" />
+    <history-entry file="OpenAppTest_testOpenApp - 2019.08.13 at 19h 35m 18s.xml">
+      <configuration name="OpenAppTest.testOpenApp" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="BoardModificationTest - 2019.08.02 at 20h 56m 48s.xml">
-      <configuration name="BoardModificationTest" configurationId="TestNG" />
+    <history-entry file="OpenAppTest_testOpenApp - 2019.08.13 at 19h 46m 02s.xml">
+      <configuration name="OpenAppTest.testOpenApp" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="BoardModificationTest - 2019.08.02 at 20h 59m 48s.xml">
-      <configuration name="BoardModificationTest" configurationId="TestNG" />
+    <history-entry file="OpenAppTest_testOpenApp - 2019.08.13 at 19h 47m 13s.xml">
+      <configuration name="OpenAppTest.testOpenApp" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="BoardModificationTest - 2019.08.02 at 21h 03m 04s.xml">
-      <configuration name="BoardModificationTest" configurationId="TestNG" />
+    <history-entry file="LoginRegistrationTest_testLogin - 2019.08.13 at 20h 24m 41s.xml">
+      <configuration name="LoginRegistrationTest.testLogin" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="BoardModificationTest - 2019.08.02 at 21h 07m 36s.xml">
-      <configuration name="BoardModificationTest" configurationId="TestNG" />
+    <history-entry file="LoginRegistrationTest_testLogin - 2019.08.13 at 20h 27m 57s.xml">
+      <configuration name="LoginRegistrationTest.testLogin" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="BoardModificationTest_changeBoardNameTest - 2019.08.05 at 22h 08m 14s.xml">
-      <configuration name="BoardModificationTest.changeBoardNameTest" configurationId="TestNG" />
+    <history-entry file="LoginRegistrationTest_testLogin - 2019.08.13 at 20h 33m 52s.xml">
+      <configuration name="LoginRegistrationTest.testLogin" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="BoardModificationTest_changeBoardNameTest - 2019.08.05 at 22h 09m 38s.xml">
-      <configuration name="BoardModificationTest.changeBoardNameTest" configurationId="TestNG" />
+    <history-entry file="LoginRegistrationTest_testLogin - 2019.08.13 at 20h 35m 25s.xml">
+      <configuration name="LoginRegistrationTest.testLogin" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="BoardModificationTest_changeBoardNameTest - 2019.08.05 at 22h 11m 29s.xml">
-      <configuration name="BoardModificationTest.changeBoardNameTest" configurationId="TestNG" />
+    <history-entry file="LoginRegistrationTest_testLogin - 2019.08.13 at 20h 44m 46s.xml">
+      <configuration name="LoginRegistrationTest.testLogin" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="BoardModificationTest - 2019.08.05 at 22h 16m 41s.xml">
-      <configuration name="BoardModificationTest" configurationId="TestNG" />
+    <history-entry file="LoginRegistrationTest_testLogin - 2019.08.13 at 20h 49m 31s.xml">
+      <configuration name="LoginRegistrationTest.testLogin" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TodoView" selected-index="2">
@@ -552,10 +568,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="162" y="10" width="1334" height="784" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49763033" visible="true" weight="0.23758389" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49763033" visible="true" weight="0.17739403" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -564,8 +580,8 @@
       <window_info id="Favorites" order="6" sideWeight="0.50236964" side_tool="true" weight="0.1875" />
       <window_info anchor="bottom" id="Problems" order="0" weight="0.329429" />
       <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Find" order="2" weight="0.33821377" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.3601757" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.33704293" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.2718601" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.3967789" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -604,16 +620,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/trello-test/src/test/java/com/telRan/model/tests/LoginTrelloTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/trello-test/src/test/resources/Team_positive.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -869,42 +875,14 @@
     <entry file="file://$PROJECT_DIR$/supers-android/src/test/java/com/telran/ssuper/model/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
-          <caret line="23" column="7" lean-forward="true" selection-start-line="3" selection-start-column="5" selection-end-line="23" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/supers-android/src/test/java/com/telran/ssuper/fw/HelperBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/supers-android/src/test/java/com/telran/ssuper/fw/SessionHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/supers-android/src/test/java/com/telran/ssuper/tests/TestBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="47" selection-start-line="2" selection-start-column="47" selection-end-line="2" selection-end-column="47" />
-          <folding>
-            <element signature="e#981#982#0" expanded="true" />
-            <element signature="e#1112#1113#0" expanded="true" />
-          </folding>
+          <caret line="23" column="7" selection-start-line="3" selection-start-column="5" selection-end-line="23" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/supers-android/src/test/java/com/telran/ssuper/tests/OpenAppTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="10" />
           <folding>
             <element signature="e#198#199#0" expanded="true" />
             <element signature="e#254#255#0" expanded="true" />
@@ -914,14 +892,57 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/supers-android/src/test/java/com/telran/ssuper/fw/ApplicationManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="71" column="10" selection-start-line="71" selection-start-column="10" selection-end-line="71" selection-end-column="10" />
+        <state relative-caret-position="147">
+          <caret line="65" selection-start-line="65" selection-end-line="65" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3214#3215#0" expanded="true" />
-            <element signature="e#3261#3262#0" expanded="true" />
-            <element signature="e#3228#3229#0" expanded="true" />
-            <element signature="e#3258#3259#0" expanded="true" />
+            <element signature="e#3849#3850#0" expanded="true" />
+            <element signature="e#3900#3901#0" expanded="true" />
+            <element signature="e#4059#4060#0" expanded="true" />
+            <element signature="e#4089#4090#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/supers-android/src/test/java/com/telran/ssuper/tests/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#956#957#0" expanded="true" />
+            <element signature="e#1087#1088#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/supers-android/src/test/java/com/telran/ssuper/fw/HelperBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+          <folding>
+            <element signature="e#562#563#0" expanded="true" />
+            <element signature="e#584#585#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/supers-android/src/test/java/com/telran/ssuper/fw/SessionHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/supers-android/src/test/java/com/telran/ssuper/tests/LoginRegistrationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
